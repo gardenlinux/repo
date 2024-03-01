@@ -1,6 +1,5 @@
 gardenlinux/package-iproute2 6.7.0-2gardenlinux1
 gardenlinux/package-frr 9.0.2-0gardenlinux0
-gardenlinux/package-linux import/null
 gardenlinux/package-systemd 255.3-2gardenlinux0
 gardenlinux/package-libyang2 2.1.148-0gardenlinux0
 gardenlinux/package-ignition 2.14.0+ds1-1gardenlinux0
@@ -32,5 +31,4 @@ gardenlinux/package-syslinux 6.04+git20190206.bf6db5b4+dfsg1-3gardenlinux0
 gardenlinux/package-tar 1.35+dfsg-3gardenlinux0
 gardenlinux/package-htop 3.3.0-4gardenlinux0
 gardenlinux/package-openssl 3.1.5-1gardenlinux0
-gardenlinux/package-linux-6.1 6.1.69-0gardenlinux0
-gardenlinux/package-linux-6.6 6.6.17-0gardenlinux0
+gardenlinux/package-linux 6.6.18-0gardenlinux0
