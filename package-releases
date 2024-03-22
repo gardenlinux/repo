@@ -31,6 +31,4 @@ gardenlinux/package-tar null
 gardenlinux/package-htop 3.3.0-4gardenlinux0
 gardenlinux/package-openssl 3.1.5-1gardenlinux0
 gardenlinux/package-linux 6.6.22-0gardenlinux0
-gardenlinux/package-linux 6.6.22-0gardenlinux0
 gardenlinux/package-curl 8.5.0-2gardenlinux0
-
