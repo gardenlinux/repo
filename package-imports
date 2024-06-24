@@ -21,8 +21,6 @@ clamav
 cloud-guest-utils
 cloud-init
 conntrack
-containerd
-containerd
 containernetworking-plugins
 cryptsetup
 curl
