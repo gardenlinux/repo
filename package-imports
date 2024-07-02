@@ -132,7 +132,6 @@ rootlesskit
 rsync
 rsyslog-relp
 rsyslog-relp
-runc
 sbsigntool
 selinux-basics
 selinux-policy-default
