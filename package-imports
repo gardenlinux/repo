@@ -40,8 +40,10 @@ iptables
 ipvsadm
 jq
 kexec-tools
+libgoogle-perftools4
 libpam-passwdqc
 libpam-pwquality
+libtcmalloc-minimal4
 libvirt-clients
 libvirt-daemon-system
 lsb-release
