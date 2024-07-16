@@ -1,3 +1,5 @@
+#amd64 syslinux
+#amd64 syslinux-common
 acl
 aide
 aide-common
@@ -46,17 +48,18 @@ lvm2
 mdadm
 neofetch
 net-tools
-netplan.io
 netcat-openbsd
+netplan.io
 nfs-common
 nodejs
 numactl
 nvme-cli
 open-vm-tools
 openssh-server
+patchelf
 pciutils
-podman
 pkexec
+podman
 polkitd
 python3-apt
 python3-cffi-backend
@@ -72,15 +75,13 @@ rsyslog-relp
 rsyslog-relp
 selinux-basics
 selinux-policy-default
-smartmontools
 slirp4netns
+smartmontools
 socat
 sosreport
 sssd
 sudo
 swtpm
-#amd64 syslinux
-#amd64 syslinux-common
 sysstat
 systemd-cron
 tcpd
