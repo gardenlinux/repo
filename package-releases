@@ -2,7 +2,7 @@ gardenlinux/package-iproute2 6.7.0-2gardenlinux1
 gardenlinux/package-frr 9.0.2-0gardenlinux0
 gardenlinux/package-systemd 255.4-1gardenlinux0
 gardenlinux/package-libyang2 2.1.148-0gardenlinux0
-gardenlinux/package-ignition 2.14.0+ds1-1gardenlinux0
+gardenlinux/package-ignition 2.19.0-0gardenlinux0+bp1443
 gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
 gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
 gardenlinux/package-cloud-init null
