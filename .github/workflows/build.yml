@@ -94,6 +94,10 @@ jobs:
           if ! aws s3api head-object --bucket '${{ vars.S3_BUCKET }}' --key 'gardenlinux/dists/${{ github.ref_name }}/InRelease' > /dev/null 2>&1; then
             echo new_dist=true >> "$GITHUB_OUTPUT"
           fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: repo-before
+          path: repo
       - name: create dist ${{ github.ref_name }}
         if: steps.check.outputs.new_dist == 'true'
         run: |
@@ -105,6 +109,10 @@ jobs:
             -v "$PWD/repo:/repo" \
             build /create_dist /repo ${{ github.ref_name }} 'https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'
           aws s3 cp --recursive 'repo/dists/${{ github.ref_name }}' 's3://${{ vars.S3_BUCKET }}/gardenlinux/dists/${{ github.ref_name }}'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: repo-after
+          path: repo
       - name: create dist experimental
         if: github.ref_type != 'tag'
         run: |
