@@ -8,6 +8,7 @@ auditd
 awscli
 azure-cli
 binutils
+bind9-dnsutils
 bird2
 bsdextrautils
 btrfs-progs
@@ -60,9 +61,11 @@ jq
 kernel-wedge
 kexec-tools
 keyutils
+libgssapi-krb5-2
 libengine-pkcs11-openssl
 libpam-passwdqc
 libpam-pwquality
+libpcap0.8
 libvirt-clients
 libvirt-daemon-system
 libxi6
