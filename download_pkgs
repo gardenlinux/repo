@@ -29,9 +29,11 @@ find download | sort | while read -r pkg; do
 		awk -F ': ' '$1 == "Package" { print $2 }' <<< "$control" >> pkgs
 		awk -F ': ' '$1 == "Depends" || $1 == "Pre-Depends" { print $2 }' <<< "$control" | tr ',' '\n' | awk '{ print $1 }' >> depends
 	fi
-	hash="$(sha256sum < "$pkg" | head -c 64)"
-	mkdir -p "$target/pool/$hash"
-	cp --update=none "$pkg" "$target/pool/$hash/"
+	if [[ -f $pkg ]]; then
+		hash="$(sha256sum < "$pkg" | head -c 64)"
+		mkdir -p "$target/pool/$hash"
+		cp --update=none "$pkg" "$target/pool/$hash/"
+	fi
 done
 
 rm -rf download
