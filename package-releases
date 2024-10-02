@@ -34,3 +34,4 @@ gardenlinux/package-xz-utils 5.6.1+really5.4.5-1gardenlinux0
 gardenlinux/package-containerd 1.6.24+ds1-2gardenlinux0
 gardenlinux/package-runc 1.1.12+ds1-1gardenlinux0+go1.22.4bp1443
 gardenlinux/package-libxml2 2.12.7+dfsg-3gl0
+gardenlinux/package-python3.11 3.11.9-1gardenlinux0 
