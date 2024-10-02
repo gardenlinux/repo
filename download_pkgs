@@ -23,11 +23,12 @@ done < "$releases"
 
 truncate -s 0 pkgs depends
 
-find download -name "*_all.deb" -or -name "*_$arch.deb" | sort | while read -r pkg; do
-	control="$(dpkg-deb -I "$pkg" control)"
-	awk -F ': ' '$1 == "Package" { print $2 }' <<< "$control" >> pkgs
-	awk -F ': ' '$1 == "Depends" || $1 == "Pre-Depends" { print $2 }' <<< "$control" | tr ',' '\n' | awk '{ print $1 }' >> depends
-
+find download | sort | while read -r pkg; do
+	if [[ $pkg == *_all.deb || $pkg == *_$arch.deb ]]; then
+		control="$(dpkg-deb -I "$pkg" control)"
+		awk -F ': ' '$1 == "Package" { print $2 }' <<< "$control" >> pkgs
+		awk -F ': ' '$1 == "Depends" || $1 == "Pre-Depends" { print $2 }' <<< "$control" | tr ',' '\n' | awk '{ print $1 }' >> depends
+	fi
 	hash="$(sha256sum < "$pkg" | head -c 64)"
 	mkdir -p "$target/pool/$hash"
 	cp --update=none "$pkg" "$target/pool/$hash/"

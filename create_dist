@@ -23,7 +23,12 @@ for arch in all amd64 arm64; do
 	echo " $hash $size main/binary-$arch/Packages.gz" >> "$index_files"
 done
 
-dpkg-scansources $target/dists/$dist/main/source | gzip > $target/dists/$dist/main/source/Sources.gz
+mkdir -p $target/dists/$dist/main/source
+echo 'debug ====='
+dpkg-scansources "$target/dists/$dist/main"
+echo 'debug ====='
+
+dpkg-scansources "$target/dists/$dist/main" | gzip > "$target/dists/$dist/main/source/Sources.gz"
 
 date="$(date -R -u)"
 
