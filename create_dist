@@ -25,10 +25,10 @@ done
 
 mkdir -p $target/dists/$dist/main/source
 echo 'debug ====='
-dpkg-scansources "$target/dists/$dist/main"
+dpkg-scansources "$target/pool"
 echo 'debug ====='
 
-dpkg-scansources "$target/dists/$dist/main" | gzip > "$target/dists/$dist/main/source/Sources.gz"
+dpkg-scansources "$target/pool" | gzip > "$target/dists/$dist/main/source/Sources.gz"
 
 date="$(date -R -u)"
 
