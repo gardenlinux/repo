@@ -28,10 +28,15 @@ echo 'debug ====='
 dpkg-scansources "$target/pool"
 echo 'debug ====='
 
-dpkg-scansources "$target/pool" | gzip > "$target/dists/$dist/main/source/Sources.gz"
+dpkg-scansources "$target/pool" > "$target/dists/$dist/main/source/Sources"
+size="$(wc -c "$target/dists/$dist/main/source/Sources" | awk '{ print $1 }')"
+hash="$(sha256sum "$target/dists/$dist/main/source/Sources" | head -c 64)"
+echo " $hash $size main/source/Sources" >> "$index_files"
+gzip < "$target/dists/$dist/main/source/Sources" > "$target/dists/$dist/main/source/Sources.gz"
 size="$(wc -c "$target/dists/$dist/main/source/Sources.gz" | awk '{ print $1 }')"
 hash="$(sha256sum "$target/dists/$dist/main/source/Sources.gz" | head -c 64)"
 echo " $hash $size main/source/Sources.gz" >> "$index_files"
+rm "$target/dists/$dist/main/source/Sources"
 
 date="$(date -R -u)"
 
