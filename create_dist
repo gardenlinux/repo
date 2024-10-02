@@ -29,6 +29,9 @@ dpkg-scansources "$target/pool"
 echo 'debug ====='
 
 dpkg-scansources "$target/pool" | gzip > "$target/dists/$dist/main/source/Sources.gz"
+size="$(wc -c "$target/dists/$dist/main/source/Sources.gz" | awk '{ print $1 }')"
+hash="$(sha256sum "$target/dists/$dist/main/source/Sources.gz" | head -c 64)"
+echo " $hash $size main/source/Sources.gz" >> "$index_files"
 
 date="$(date -R -u)"
 
