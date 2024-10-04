@@ -52,11 +52,13 @@ join -v 1 <(cat arch_import_list recursive_depends | sort | uniq) pkgs | { grep 
 mkdir apt_download
 (cd apt_download && xargs apt-get download) < recursive_needed
 
-find apt_download -name "*.deb" | while read -r pkg; do
-	hash="$(sha256sum < "$pkg" | head -c 64)"
-	mkdir -p "$target/pool/$hash"
-	cp --update=none "$pkg" "$target/pool/$hash/"
-	rm "$pkg"
+find apt_download | while read -r pkg; do
+	if [[ -f $pkg ]]; then
+		hash="$(sha256sum < "$pkg" | head -c 64)"
+		mkdir -p "$target/pool/$hash"
+		cp --update=none "$pkg" "$target/pool/$hash/"
+		rm "$pkg"
+	fi
 done
 
 rm -rf apt_download
