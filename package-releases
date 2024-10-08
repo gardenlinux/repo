@@ -16,7 +16,7 @@ gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch 7.1.0-4gardenlinux0
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
-gardenlinux/package-openssh 9.6p1-3gardenlinux1
+gardenlinux/package-openssh 9.9p1-1gl0
 gardenlinux/package-oras 1.1.0-0gardenlinux0
 gardenlinux/package-ostree 2024.3-1gardenlinux0
 gardenlinux/package-pam 1.5.2-9.1gardenlinux0
@@ -29,9 +29,13 @@ gardenlinux/package-sudosh2 1.0.7gardenlinux0
 gardenlinux/package-syslinux null
 gardenlinux/package-tar null
 gardenlinux/package-htop 3.3.0-4gardenlinux0
-gardenlinux/package-openssl 3.1.5-1gardenlinux0
-gardenlinux/package-linux 6.6.41-0gardenlinux0+bp1443
+gardenlinux/package-openssl 3.1.7-0gardenlinux0+bp1443
+gardenlinux/package-linux 6.6.54-0gl0+bp1443
 gardenlinux/package-curl 8.5.0-2gardenlinux0
 gardenlinux/package-xz-utils 5.6.1+really5.4.5-1gardenlinux0
 gardenlinux/package-containerd 1.6.24+ds1-2gardenlinux0
 gardenlinux/package-runc 1.1.12+ds1-1gardenlinux0+go1.22.4bp1443
+gardenlinux/package-krb5 1.21.3-3gl0
+gardenlinux/package-libpcap 1.10.5-1gl0
+gardenlinux/package-libxml2 2.9.14+dfsg-1gardenlinux0+bp1443
+gardenlinux/package-bind9 9.19.24-2gl0
