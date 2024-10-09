@@ -35,7 +35,7 @@ gardenlinux/package-curl 8.5.0-2gardenlinux0
 gardenlinux/package-xz-utils 5.6.1+really5.4.5-1gardenlinux0
 gardenlinux/package-containerd 1.6.24+ds1-2gardenlinux0
 gardenlinux/package-runc 1.1.12+ds1-1gardenlinux0+go1.22.4bp1443
-gardenlinux/package-krb5 1.21.3-3gl0
+gardenlinux/package-krb5 1.21.3-3gl0+bp1443
 gardenlinux/package-libpcap 1.10.5-1gl0+bp1443
 gardenlinux/package-libxml2 2.9.14+dfsg-1gardenlinux0+bp1443
-gardenlinux/package-bind9 9.19.24-2gl0
+gardenlinux/package-bind9 9.19.24-2gl0+bp1443
