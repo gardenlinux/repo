@@ -16,7 +16,7 @@ gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch 7.1.0-4gardenlinux0
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
-gardenlinux/package-openssh 9.9p1-1gl0
+gardenlinux/package-openssh 9.8p1-8gl0+bp1443
 gardenlinux/package-oras 1.1.0-0gardenlinux0
 gardenlinux/package-ostree 2024.3-1gardenlinux0
 gardenlinux/package-pam 1.5.2-9.1gardenlinux0
