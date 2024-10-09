@@ -21,7 +21,7 @@ gardenlinux/package-oras 1.1.0-0gardenlinux0
 gardenlinux/package-ostree 2024.3-1gardenlinux0
 gardenlinux/package-pam 1.5.2-9.1gardenlinux0
 gardenlinux/package-perl 5.38.2-3gardenlinux0
-gardenlinux/package-python3.11 3.11.2-6+deb12u3gardenlinux0+bp1443
+gardenlinux/package-python3.11 3.11.10-0gardenlinux0+bp1443
 gardenlinux/package-refpolicy 2.20240202-1gardenlinux0
 gardenlinux/package-selinux-basics 0.5.9gardenlinux0
 gardenlinux/package-sops 3.8.1-0gardenlinux0
