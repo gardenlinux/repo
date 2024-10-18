@@ -11,6 +11,7 @@ gardenlinux/package-docker-machine 0.16.2+gitlab.23-0gardenlinux0
 gardenlinux/package-ferm 2.7-0gardenlinux0
 gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
+gardenlinux/package-expat 2.6.2-1gl1+bp1592
 gardenlinux/package-libpam-ssh 2.3+ds-6gardenlinux0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
@@ -28,9 +29,10 @@ gardenlinux/package-sops 3.8.1-0gardenlinux0
 gardenlinux/package-sudosh2 1.0.7gardenlinux0
 gardenlinux/package-syslinux null
 gardenlinux/package-tar null
-gardenlinux/package-htop 3.3.0-4gardenlinux0
-gardenlinux/package-openssl 3.2.2-1gardenlinux0
-gardenlinux/package-linux 6.6.47-0gardenlinux0
+gardenlinux/package-htop 3.3.0-4gardeninux0
+gardenlinux/package-openssl 3.2.2-1gl1/+bp1592
+gardenlinux/package-linux 6.6.56-0gl0+bp1592
+gardenlinux/package-libpcap 1.10.4-5gl1+bp1592
 gardenlinux/package-libxml2 2.12.7+dfsg-3gardenlinux0
 gardenlinux/package-curl 8.8.0-4gardenlinux0
 gardenlinux/package-fail2ban 1.1.0-4gardenlinux0
@@ -43,6 +45,6 @@ gardenlinux/package-efitools 1.9.2-3gardenlinux0
 gardenlinux/package-uid-wrapper null
 gardenlinux/package-containerd 1.7.20-0gardenlinux0
 gardenlinux/package-golang 1.22.6-1gardenlinux0
-gardenlinux/package-python3.12 3.12.4-3gardenlinux0
+gardenlinux/package-python3.12 3.12.7-1gl1+bp1592
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-resizefat32 0.1gardenlinux0
