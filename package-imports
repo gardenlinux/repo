@@ -1,3 +1,5 @@
+#amd64 syslinux
+#amd64 syslinux-common
 acl
 aide
 aide-common
@@ -22,7 +24,6 @@ cloud-guest-utils
 cloud-init
 conntrack
 containerd
-containerd
 containernetworking-plugins
 cryptsetup
 curl
@@ -31,17 +32,16 @@ dkms
 dnsmasq
 dnsutils
 docker.io
-docker.io
 dosfstools
 dracut
 dracut-live
 dracut-network
 dwarves
 ebtables
+efi-shell-aa64
+efi-shell-x64
 efibootmgr
 efitools
-efi-shell-x64
-efi-shell-aa64
 ethtool
 fatresize
 flex
@@ -84,8 +84,8 @@ mstflint
 multipath-tools
 neofetch
 net-tools
-netplan.io
 netcat-openbsd
+netplan.io
 nfs-common
 nftables
 nodejs
@@ -102,8 +102,8 @@ ostree
 ovmf
 patchelf
 pciutils
-podman
 pkexec
+podman
 polkitd
 pristine-lfs
 python3-apt
@@ -128,7 +128,6 @@ rng-tools5
 rootlesskit
 rsync
 rsyslog-relp
-rsyslog-relp
 runc
 sbsigntool
 selinux-basics
@@ -144,8 +143,6 @@ sssd
 strace
 sudo
 swtpm
-#amd64 syslinux
-#amd64 syslinux-common
 sysstat
 systemd-cron
 tcpd
