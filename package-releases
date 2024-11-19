@@ -40,7 +40,7 @@ gardenlinux/package-xz-utils 5.6.2-2gardenlinux0
 gardenlinux/package-open-vm-tools null
 gardenlinux/package-deborphan 1.7.35gardenlinux0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
-gardenlinux/package-sssd null
+gardenlinux/package-sssd 2.9.5-3gl0
 gardenlinux/package-efitools 1.9.2-3gardenlinux0
 gardenlinux/package-uid-wrapper null
 gardenlinux/package-containerd 1.7.20-0gardenlinux0
