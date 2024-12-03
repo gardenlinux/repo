@@ -3,10 +3,12 @@ aide
 aide-common
 amazon-ec2-utils
 apparmor
+apt-transport-https
 arptables
 auditd
 awscli
 azure-cli
+bind9-dnsutils
 binutils
 bird2
 bsdextrautils
@@ -21,6 +23,7 @@ clamav
 cloud-guest-utils
 cloud-init
 conntrack
+containerd
 containernetworking-plugins
 cryptsetup
 curl
@@ -29,7 +32,6 @@ devscripts
 dkms
 dnsmasq
 dnsutils
-docker.io
 docker.io
 docker.iodmidecode
 dosfstools
@@ -52,6 +54,7 @@ google-compute-engine-oslogin
 google-guest-agent
 haveged
 hdparm
+inetutils-ping
 ipmitool
 iptables
 iputils-arping
@@ -61,8 +64,10 @@ kernel-wedge
 kexec-tools
 keyutils
 libengine-pkcs11-openssl
+libgssapi-krb5-2
 libpam-passwdqc
 libpam-pwquality
+libpcap0.8
 libvirt-clients
 libvirt-daemon-system
 libxi6
@@ -82,8 +87,8 @@ microsoft-authentication-library-for-python
 multipath-tools
 neofetch
 net-tools
-netplan.io
 netcat-openbsd
+netplan.io
 nfs-common
 nftablesdracut-network
 nodejs
@@ -95,7 +100,6 @@ nvme-cli
 open-vm-tools
 open-vm-toolsselinux-basics
 openssh-server
-openssl
 openssl
 ostree
 ovmf
@@ -131,12 +135,13 @@ rng-tools5
 rootlesskit
 rsync
 rsyslog-relp
-rsyslog-relp
+runc
 sbsigntool
 selinux-basics
 selinux-policy-default
 sg3-utils
 sgml-base
+shellcheck
 smartmontools
 socat
 sosreport
@@ -154,6 +159,7 @@ tcpd
 tcpdump
 tpm2-tools
 traceroute
+unzip
 usbutils
 usr-is-merged
 vim
