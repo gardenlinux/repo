@@ -1,8 +1,11 @@
+#amd64 syslinux
+#amd64 syslinux-common
 acl
 aide
 aide-common
 amazon-ec2-utils
 apparmor
+apt-transport-https
 arptables
 auditd
 awscli
@@ -22,7 +25,6 @@ cloud-guest-utils
 cloud-init
 conntrack
 containerd
-containerd
 containernetworking-plugins
 cryptsetup
 curl
@@ -31,17 +33,16 @@ dkms
 dnsmasq
 dnsutils
 docker.io
-docker.io
 dosfstools
 dracut
 dracut-live
 dracut-network
 dwarves
 ebtables
+efi-shell-aa64
+efi-shell-x64
 efibootmgr
 efitools
-efi-shell-x64
-efi-shell-aa64
 ethtool
 fatresize
 flex
@@ -54,6 +55,7 @@ google-compute-engine-oslogin
 google-guest-agent
 haveged
 hdparm
+inetutils-ping
 ipmitool
 iptables
 iputils-arping
@@ -84,8 +86,8 @@ mstflint
 multipath-tools
 neofetch
 net-tools
-netplan.io
 netcat-openbsd
+netplan.io
 nfs-common
 nftables
 nodejs
@@ -103,8 +105,8 @@ ovmf
 passt
 patchelf
 pciutils
-podman
 pkexec
+podman
 polkitd
 pristine-lfs
 python3-apt
@@ -118,6 +120,7 @@ python3-pip
 python3-pip-whl
 python3-setuptools-whl
 python3-systemd
+python3.11
 qemu-block-extra
 qemu-efi-aarch64
 qemu-guest-agent
@@ -129,11 +132,11 @@ rng-tools5
 rootlesskit
 rsync
 rsyslog-relp
-rsyslog-relp
 runc
 sbsigntool
 selinux-basics
 selinux-policy-default
+shellcheck
 sg3-utils
 sgml-base
 slirp4netns
@@ -145,14 +148,13 @@ sssd
 strace
 sudo
 swtpm
-#amd64 syslinux
-#amd64 syslinux-common
 sysstat
 systemd-cron
 tcpd
 tcpdump
 tpm2-tools
 traceroute
+unzip
 usbutils
 usr-is-merged
 vim
