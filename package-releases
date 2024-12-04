@@ -32,10 +32,10 @@ gardenlinux/package-syslinux null
 gardenlinux/package-tar null
 gardenlinux/package-htop 3.3.0-4gardenlinux0
 gardenlinux/package-openssl 3.2.2-1gl1+bp1592
-gardenlinux/package-linux 6.6.62-0gl1+bp1592
+gardenlinux/package-linux 6.6.63-0gl0+bp1592
 gardenlinux/package-libpcap 1.10.4-5gl1+bp1592
 gardenlinux/package-libxml2 2.12.7+dfsg-3gardenlinux0
-gardenlinux/package-curl 8.8.0-4gardenlinux0
+gardenlinux/package-curl 8.11.0-1gl0
 gardenlinux/package-fail2ban 1.1.0-4gardenlinux0
 gardenlinux/package-xz-utils 5.6.2-2gardenlinux0
 gardenlinux/package-open-vm-tools null
@@ -44,8 +44,13 @@ gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-sssd 2.9.5-3gl0
 gardenlinux/package-efitools 1.9.2-3gardenlinux0
 gardenlinux/package-uid-wrapper null
-gardenlinux/package-containerd 1.7.20-0gardenlinux0
+gardenlinux/package-containerd 1.7.23+ds2-1gl0
 gardenlinux/package-golang 1.22.6-1gardenlinux0
 gardenlinux/package-python3.12 3.12.7-1gl1+bp1592
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-resizefat32 0.1gardenlinux0
+gardenlinux/bp-package-coreutils 9.5-1gl0+bp1592
+gardenlinux/bp-package-libssh2 1.11.1-1gl0
+gardenlinux/bp-package-wget 1.24.5-2gl0
+gardenlinux/bp-package-python-certifi 2024.8.30+dfsg-1gl0
+gardenlinux/bp-package-google-guest-agent 20211116.00-6.2gl0
