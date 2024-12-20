@@ -2,10 +2,11 @@ gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
 gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
 gardenlinux/package-bind9 9.19.24-2gl0+bp1443
 gardenlinux/package-cloud-init null
-gardenlinux/package-containerd 1.6.24+ds1-2gardenlinux0
-gardenlinux/package-curl 8.5.0-2gardenlinux0
+gardenlinux/package-containerd 1.6.24+ds1-1gl2+bp1443
+gardenlinux/package-curl 8.11.1-1gl1+bp1443
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-4gardenlinux0
 gardenlinux/package-docker-machine 0.16.2+gitlab.23-0gardenlinux0
+gardenlinux/package-expat 2.6.4-2gl0+bp1443
 gardenlinux/package-ferm 2.7-0gardenlinux0
 gardenlinux/package-frr 9.0.2-0gardenlinux0
 gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
@@ -19,7 +20,7 @@ gardenlinux/package-libpcap 1.10.5-1gl0+bp1443
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libxml2 2.9.14+dfsg-1gardenlinux0+bp1443
 gardenlinux/package-libyang2 2.1.148-0gardenlinux0
-gardenlinux/package-linux 6.6.54-0gl0+bp1443
+gardenlinux/package-linux 6.6.63-0gl0+bp1443
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch 7.1.0-4gardenlinux0
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
@@ -39,3 +40,12 @@ gardenlinux/package-syslinux null
 gardenlinux/package-systemd 255.4-1gardenlinux0
 gardenlinux/package-tar null
 gardenlinux/package-xz-utils 5.6.1+really5.4.5-1gardenlinux0
+gardenlinux/bp-package-less 643-1gl0+bp1443
+gardenlinux/bp-package-coreutils 9.5-1gl0+bp1443
+gardenlinux/bp-package-google-guest-agent 20211116.00-6.2gl0
+gardenlinux/bp-package-ngtcp2 1.9.1-1gl0
+gardenlinux/bp-package-nghttp3 1.6.0-1gl0
+gardenlinux/bp-package-golang-golang-x-text-dev 0.16.0-1gl0
+gardenlinux/bp-package-golang-golang-x-term-dev 0.22.0-1gl0
+gardenlinux/bp-package-golang-golang-x-sys-dev 0.22.0-1gl0
+gardenlinux/bp-package-golang-golang-x-net-dev 0.27.0-1gl0
