@@ -12,7 +12,7 @@ gardenlinux/package-frr 9.0.2-0gardenlinux0
 gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
 gardenlinux/package-htop 3.3.0-4gardenlinux0
-gardenlinux/package-ignition 2.19.0-0gardenlinux0+bp1443
+gardenlinux/package-ignition 2.19.0-0gl0+bp1443
 gardenlinux/package-iproute2 6.7.0-2gardenlinux1
 gardenlinux/package-krb5 1.21.3-3gl0+bp1443
 gardenlinux/package-libpam-ssh 2.3+ds-6gardenlinux0
