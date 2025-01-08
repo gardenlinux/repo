@@ -31,7 +31,7 @@ gardenlinux/package-syslinux null
 gardenlinux/package-tar null
 gardenlinux/package-htop 3.3.0-4gardenlinux0
 gardenlinux/package-openssl 3.3.2-2gl0
-gardenlinux/package-linux 6.12.8-1sixtwelve
+gardenlinux/package-linux 6.12.8-1sixtwelve2
 gardenlinux/package-curl 8.11.0-1gl0
 gardenlinux/package-fail2ban 1.1.0-4gardenlinux0
 gardenlinux/package-xz-utils 5.6.3-1gl0
