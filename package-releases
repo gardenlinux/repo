@@ -24,6 +24,7 @@ gardenlinux/package-pam 1.5.3-7gardenlinux0
 gardenlinux/package-perl 5.38.2-5gardenlinux0
 gardenlinux/package-python3.11 3.11.9-1gardenlinux0
 gardenlinux/package-refpolicy 2.20240723-2gardenlinux0
+gardenlinux/package-rsync 3.3.0+ds1-4gl0+bp1592
 gardenlinux/package-runc 1.1.15+ds1-1gl0
 gardenlinux/package-selinux-basics 0.5.9gardenlinux0
 gardenlinux/package-sops 3.8.1-0gardenlinux0
@@ -47,7 +48,7 @@ gardenlinux/package-efitools 1.9.2-3gardenlinux0
 gardenlinux/package-uid-wrapper null
 gardenlinux/package-containerd 1.7.23+ds2-1gl0
 gardenlinux/package-golang 1.22.6-1gardenlinux0
-gardenlinux/package-python3.12 3.12.8-5gl0
+gardenlinux/package-python3.12 3.12.8-5gl0+bp1592
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/bp-package-coreutils 9.5-1gl0+bp1592
