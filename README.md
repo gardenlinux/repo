@@ -27,7 +27,7 @@ flowchart TD
 ## GitHub
 
 - `gardenlinux/repo`
-	- collect packages from `package-*` repos, fetch all dependecies from debian snapshot and publish into an APT repo distribution
+	- collect packages from `package-*` repos, fetch all dependencies from debian snapshot and publish into an APT repo distribution
 - [`gardenlinux/repo-debian-snapshot`](https://github.com/gardenlinux/repo-debian-snapshot)
 	- regularly snapshot debian testing (needed for reproducible package and repo builds)
 - [`gardenlinux/package-build`](https://github.com/gardenlinux/package-build)
@@ -64,4 +64,24 @@ git checkout <GL_VERSION>.0
 git commit
 git tag <GL_VERSION>.1
 git push origin <GL_VERSION>.1
+```
+
+## Remove Garden Linux packages from the repo
+
+If, for whatever reason, we need to switch back to debian mirrored packages, a null release (with no content/assets) should be created.
+
+> [!IMPORTANT]  
+> DO NOT RENAME PACKAGE REPOS
+
+This is going to break future patch releases, if needed. Also, you should disable github actions for that repo, in order to prevent version updates from overwriting the null release.
+
+Create an empty branch, a null tag, push everything and then create a release.
+
+```
+git checkout --orphan nullbranch
+git reset
+git commit --allow-empty -m "null"
+git push origin nullbranch
+git tag null
+git push origin null
 ```

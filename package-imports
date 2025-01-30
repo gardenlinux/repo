@@ -3,6 +3,7 @@ aide
 aide-common
 amazon-ec2-utils
 apparmor
+apt-transport-https
 arptables
 auditd
 binutils
@@ -34,6 +35,7 @@ gnupg
 google-compute-engine-oslogin
 google-guest-agent
 hdparm
+inetutils-ping
 ipmitool
 iptables
 ipvsadm
@@ -47,6 +49,7 @@ libvirt-daemon-system
 lsb-release
 lvm2
 mdadm
+mstflint
 multipath-tools
 neofetch
 netcat-openbsd
@@ -108,6 +111,7 @@ tcpd
 tcpdump
 tpm2-tools
 traceroute
+unzip
 usbutils
 usr-is-merged
 vim
