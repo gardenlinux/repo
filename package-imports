@@ -6,6 +6,7 @@ apparmor
 apt-transport-https
 arptables
 auditd
+azure-vm-utils
 binutils
 bsdextrautils
 btrfs-progs
