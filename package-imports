@@ -1,5 +1,3 @@
-#amd64 syslinux
-#amd64 syslinux-common
 acl
 aide
 aide-common
@@ -148,6 +146,8 @@ sssd
 strace
 sudo
 swtpm
+syslinux
+syslinux-common
 sysstat
 systemd-cron
 tcpd
