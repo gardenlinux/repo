@@ -41,14 +41,14 @@ find download -name "*.deb" | sort | while read -r pkg; do
 	cp --update=none "$pkg" "$target/pool/$hash/"
 done
 
-find download -name "*.dsc" | sort | while read -r src; do
-	hash="$(sha256sum < "$src" | head -c 64)"
-	mkdir -p "$target/pool/$hash"
-	cp --update=none "$src" "$target/pool/$hash/$(basename "$src")"
-	awk '/^Files:$/ { flag = 1; next } !/^ / { flag = 0; } flag { print $3 }' < "$src" | while read f; do
-		cp --update=none "download/$f" "$target/pool/$hash/$f"
-	done
-done
+# find download -name "*.dsc" | sort | while read -r src; do
+# 	hash="$(sha256sum < "$src" | head -c 64)"
+# 	mkdir -p "$target/pool/$hash"
+# 	cp --update=none "$src" "$target/pool/$hash/$(basename "$src")"
+# 	awk '/^Files:$/ { flag = 1; next } !/^ / { flag = 0; } flag { print $3 }' < "$src" | while read f; do
+# 		cp --update=none "download/$f" "$target/pool/$hash/$f"
+# 	done
+# done
 
 rm -rf download
 sort -o pkgs -u pkgs
@@ -64,7 +64,7 @@ join -v 1 <(sort < recursive_depends | uniq) pkgs | { grep -v -x -f "$exclude_pa
 
 mkdir apt_download
 (cd apt_download && xargs apt-get download) < recursive_needed
-(cd apt_download && xargs apt-get source --download-only) < recursive_needed
+# (cd apt_download && xargs apt-get source --download-only) < recursive_needed
 
 find apt_download -name "*.deb" | while read -r pkg; do
 	hash="$(sha256sum < "$pkg" | head -c 64)"
@@ -73,13 +73,13 @@ find apt_download -name "*.deb" | while read -r pkg; do
 	rm "$pkg"
 done
 
-find apt_download -name "*.dsc" | while read -r src; do
-	hash="$(sha256sum < "$src" | head -c 64)"
-	mkdir -p "$target/pool/$hash"
-	cp --update=none "$src" "$target/pool/$hash/$(basename "$src")"
-	awk '/^Files:$/ { flag = 1; next } !/^ / { flag = 0; } flag { print $3 }' < "$src" | while read f; do
-		cp --update=none "apt_download/$f" "$target/pool/$hash/$f"
-	done
-done
+# find apt_download -name "*.dsc" | while read -r src; do
+# 	hash="$(sha256sum < "$src" | head -c 64)"
+# 	mkdir -p "$target/pool/$hash"
+# 	cp --update=none "$src" "$target/pool/$hash/$(basename "$src")"
+# 	awk '/^Files:$/ { flag = 1; next } !/^ / { flag = 0; } flag { print $3 }' < "$src" | while read f; do
+# 		cp --update=none "apt_download/$f" "$target/pool/$hash/$f"
+# 	done
+# done
 
 rm -rf apt_download
