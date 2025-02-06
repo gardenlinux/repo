@@ -33,6 +33,7 @@ gardenlinux/package-pam 1.5.2-9.1gardenlinux0
 gardenlinux/package-perl 5.38.2-3gardenlinux0
 gardenlinux/package-python3.11 3.11.10-0gl0+bp1443
 gardenlinux/package-refpolicy 2.20240202-1gardenlinux0
+gardenlinux/package-rsync 3.2.7-1+deb12u2gl0+bp1443
 gardenlinux/package-runc 1.1.15+ds1-1gl0+bp1443
 gardenlinux/package-selinux-basics 0.5.9gardenlinux0
 gardenlinux/package-sops 3.8.1-0gardenlinux0
@@ -49,5 +50,5 @@ gardenlinux/bp-package-nghttp3 1.6.0-1gl0
 gardenlinux/bp-package-golang-golang-x-text-dev 0.16.0-1gl0
 gardenlinux/bp-package-golang-golang-x-term-dev 0.22.0-1gl0
 gardenlinux/bp-package-golang-golang-x-sys-dev 0.22.0-1gl0
-gardenlinux/bp-package-golang-golang-x-net-dev 0.27.0-1gl0
+gardenlinux/bp-package-golang-golang-x-net-dev 0.27.0-1gl0+bp1443
 gardenlinux/bp-package-ruby3.1 3.1.2-8.4gl0
