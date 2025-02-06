@@ -3,7 +3,7 @@ gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
 gardenlinux/package-bind9 9.19.24-2gl0+bp1443
 gardenlinux/package-cloud-init null
 gardenlinux/package-containerd 1.6.24+ds1-1gl4+bp1443
-gardenlinux/package-curl 8.11.1-1gl2+bp1443
+gardenlinux/package-curl 8.11.1-1gl3+bp1443
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-4gardenlinux0
 gardenlinux/package-docker-machine 0.16.2+gitlab.23-0gardenlinux0
 gardenlinux/package-expat 2.6.4-2gl0+bp1443
