@@ -19,7 +19,7 @@ gardenlinux/package-krb5 1.21.3-3gl0+bp1443
 gardenlinux/package-libpam-ssh 2.3+ds-6gardenlinux0
 gardenlinux/package-libpcap 1.10.5-1gl0+bp1443
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
-gardenlinux/package-libxml2 2.9.14+dfsg-1gardenlinux0+bp1443
+gardenlinux/package-libxml2 2.9.14+dfsg-1gardenlinux1+bp1443
 gardenlinux/package-libyang2 2.1.148-0gardenlinux0
 gardenlinux/package-linux 6.6.71-0gl0+bp1443
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
