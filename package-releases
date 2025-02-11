@@ -48,7 +48,7 @@ gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/package-libxml2 2.12.7+dfsg-3gardenlinux0
 gardenlinux/package-glvd 0.0.1gl0
-gardenlinux/package-libguestfs 1.52.2-7gl0
+gardenlinux/package-libguestfs 1.52.2-7gl1
 gardenlinux/package-krb5 1.21.3-4gl0
 gardenlinux/package-bind9 9.19.24-2gl0
 gardenlinux/package-libpcap 1.10.5-1gl0
