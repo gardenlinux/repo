@@ -56,3 +56,4 @@ gardenlinux/bp-package-libssh2 1.11.1-1gl0
 gardenlinux/bp-package-wget 1.24.5-2gl0
 gardenlinux/bp-package-python-certifi 2024.8.30+dfsg-1gl0
 gardenlinux/bp-package-google-guest-agent 20211116.00-6.2gl0
+garderlinux/bp-package-glibc 2.39-6gl0+bp1592
