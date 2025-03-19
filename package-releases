@@ -52,7 +52,7 @@ gardenlinux/package-python3.12 3.12.8-5gl0+bp1592
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/package-bind9 9.20.4-4gl0+bp1592
-gardenlinux/package-libcap2 2.75-2gl0+bp1592
+gardenlinux/package-libcap2 2.75-2gl0+bp1592
 gardenlinux/package-tcpdump 4.99.5-2gl0+bp1592
 gardenlinux/package-krb5 1.21.3-5gl0+bp1592
 gardenlinux/package-google-compute-engine 20250221.00gl0+bp1592
