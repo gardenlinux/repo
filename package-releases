@@ -56,6 +56,7 @@ gardenlinux/package-libcap2 2.75-2gl0+bp1592
 gardenlinux/package-tcpdump 4.99.5-2gl0+bp1592
 gardenlinux/package-krb5 1.21.3-5gl0+bp1592
 gardenlinux/package-google-compute-engine 20250221.00gl0+bp1592
+gardenlinux/package-golang 1.23.8-1gl0~bp1592
 gardenlinux/bp-package-coreutils 9.5-1gl0+bp1592
 gardenlinux/bp-package-libssh2 1.11.1-1gl0
 gardenlinux/bp-package-wget 1.25.0-2gl0
