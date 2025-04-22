@@ -46,8 +46,8 @@ gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-sssd 2.9.5-3gl0
 gardenlinux/package-efitools 1.9.2-3gardenlinux0
 gardenlinux/package-uid-wrapper null
-gardenlinux/package-containerd 1.7.23+ds2-1gl1+bp1592
-gardenlinux/package-golang 1.23.8-1gl0~bp1592
+gardenlinux/package-containerd 1.7.23+ds2-1gl2+bp1592
+gardenlinux/package-golang 1.23.8-1gl0+bp1592
 gardenlinux/package-python3.12 3.12.8-5gl0+bp1592
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-resizefat32 0.1gardenlinux0
