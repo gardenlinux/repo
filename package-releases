@@ -39,7 +39,7 @@ gardenlinux/package-libpcap 1.10.4-5gl1+bp1592
 gardenlinux/package-libxml2 2.9.14+dfsg-1gl2+bp1592
 gardenlinux/package-curl 8.12.1-3gl0+bp1592
 gardenlinux/package-fail2ban 1.1.0-4gardenlinux0
-gardenlinux/package-xz-utils 5.6.2-2gardenlinux0
+gardenlinux/package-xz-utils 5.6.2-2gl1
 gardenlinux/package-open-vm-tools null
 gardenlinux/package-deborphan 1.7.35gardenlinux0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
