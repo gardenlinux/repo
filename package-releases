@@ -1,6 +1,6 @@
 gardenlinux/package-iproute2 6.9.0-1gardenlinux0
 gardenlinux/package-frr 10.0.1-0.1gardenlinux0
-gardenlinux/package-systemd 256.4-2gardenlinux0
+gardenlinux/package-systemd 256.13-0gl0
 gardenlinux/package-libyang2 null
 gardenlinux/package-ignition 2.19.0-0gardenlinux0
 gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
