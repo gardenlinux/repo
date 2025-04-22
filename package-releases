@@ -11,7 +11,7 @@ gardenlinux/package-docker-machine 0.16.2+gitlab.23-0gardenlinux0
 gardenlinux/package-ferm 2.7-0gardenlinux0
 gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
-gardenlinux/package-expat 2.6.4-1gl0
+gardenlinux/package-expat 2.7.1-1gl0~bp1592
 gardenlinux/package-libpam-ssh 2.3+ds-6gardenlinux0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
