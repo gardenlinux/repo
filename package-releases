@@ -42,7 +42,7 @@ gardenlinux/package-sudosh2 1.0.7gardenlinux0
 gardenlinux/package-syslinux null
 gardenlinux/package-systemd 255.4-1gardenlinux0
 gardenlinux/package-tar null
-gardenlinux/package-xz-utils 5.6.1+really5.4.5-1gardenlinux0
+gardenlinux/package-xz-utils 5.8.1-1gl0+bp1443
 gardenlinux/bp-package-less 643-1gl0+bp1443
 gardenlinux/bp-package-coreutils 9.5-1gl0+bp1443
 gardenlinux/bp-package-google-guest-agent 20211116.00-6.2gl0
