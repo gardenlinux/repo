@@ -22,7 +22,7 @@ gardenlinux/package-libpcap 1.10.5-1gl0+bp1443
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libxml2 2.9.14+dfsg-1gl2+bp1443
 gardenlinux/package-libyang2 2.1.148-0gardenlinux0
-gardenlinux/package-linux 6.6.83-0gl0+bp1443
+gardenlinux/package-linux 6.6.88-0gl0+bp1443
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch 7.1.0-4gardenlinux0
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
