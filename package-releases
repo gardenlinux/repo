@@ -41,7 +41,7 @@ gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-sssd null
 gardenlinux/package-efitools null
 gardenlinux/package-uid-wrapper null
-gardenlinux/package-containerd 2.1.0-0gl0
+gardenlinux/package-containerd 2.1.1-0gl0
 gardenlinux/package-golang 1.24.2-2gl0
 gardenlinux/package-python3.12 null
 gardenlinux/package-datefudge 1.26gardenlinux0
