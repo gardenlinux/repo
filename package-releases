@@ -68,6 +68,7 @@ gardenlinux/bp-package-libtasn1 4.20.0-1gl0+bp1592
 gardenlinux/bp-package-python3-urllib3 2.0.7-2gl0+bp1592
 gardenlinux/bp-package-golang-net 0.33.0-1gl0+bp1592
 gardenlinux/bp-package-golang-golang-x-net-dev 0.27.0-2gl0+bp1592
+gardenlinux/bp-package-golang-x-crypto 0.36.0-1+exp1gl0+bp1592
 gardenlinux/bp-package-gnutls28 3.8.9-2gl0+bp1592
 gardenlinux/bp-package-ruby3.1 3.1.2-8.5gl0
 gardenlinux/bp-package-azure-vm-utils 0.5.1-1gl0+bp1592
