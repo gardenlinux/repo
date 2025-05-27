@@ -21,7 +21,7 @@ gardenlinux/package-openssh 9.9p2-1gl2+bp1592
 gardenlinux/package-oras 1.2.0-0gardenlinux0
 gardenlinux/package-ostree 2024.7-1gardenlinux0
 gardenlinux/package-pam 1.5.3-7gardenlinux0
-gardenlinux/package-perl 5.38.2-5gardenlinux0
+gardenlinux/package-perl 5.38.2-5gl0~bp1592
 gardenlinux/package-python3.11 3.11.9-1gardenlinux0
 gardenlinux/package-refpolicy 2.20240723-2gardenlinux0
 gardenlinux/package-rsync 3.3.0+ds1-4gl0+bp1592
