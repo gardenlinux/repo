@@ -70,3 +70,4 @@ gardenlinux/package-tcpdump 4.99.5-2gl0
 gardenlinux/package-uid-wrapper null
 gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.1-1gl0
+gardenlinux/bp-package-jq 1.7.1-6-0gl0+bp1877
