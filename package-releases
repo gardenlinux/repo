@@ -21,9 +21,9 @@ gardenlinux/package-glvd 0.0.1gl0
 gardenlinux/package-golang 1.24.2-2gl0
 gardenlinux/package-golang-github-checkpoint-restore-go-criu-dev 7.2.0+ds1-2gl0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
-gardenlinux/package-google-compute-engine 20250221.00gl0
-gardenlinux/package-google-compute-engine-oslogin 20250123.00gl0
-gardenlinux/package-google-guest-agent 20250122.00gl0
+gardenlinux/package-google-compute-engine 20250627.00gl0
+gardenlinux/package-google-compute-engine-oslogin 20250624.00gl0
+gardenlinux/package-google-guest-agent 20250703.00gl0
 gardenlinux/package-htop 3.4.1-4gl0
 gardenlinux/package-htop-dev 3.4.1-4gl0
 gardenlinux/package-ignition 2.19.0-0gardenlinux0
