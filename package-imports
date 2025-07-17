@@ -107,6 +107,7 @@ pciutils
 pkexec
 podman
 polkitd
+postfix
 python3-apt
 python3-cffi-backend
 python3-click
