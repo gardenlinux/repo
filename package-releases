@@ -75,3 +75,4 @@ gardenlinux/package-cloud-hypervisor-gl 46.0-7gl0
 gardenlinux/package-edk2-cloud-hypervisor-gl 20250503-5gl0
 gardenlinux/package-libvirt 11.3.0-18gl0
 gardenlinux/package-dropbear-static 2025.88-1gl0
+gardenlinux/package-zero-copy-initrd 0.1-1gl0
