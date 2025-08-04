@@ -4,7 +4,7 @@ gardenlinux/package-bind9 9.20.4-4gl0
 gardenlinux/package-bootloader 0.1.1gl0
 gardenlinux/package-cloud-init null
 gardenlinux/package-containerd 2.1.3-0gl0
-gardenlinux/package-curl 8.12.1-2gl0
+gardenlinux/package-curl 8.14.1-2gl0+bp1877
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-9gl0
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-deborphan 1.7.35gardenlinux0
@@ -18,7 +18,7 @@ gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
 gardenlinux/package-gardenlinux-update 0.7gl0
 gardenlinux/package-glvd 0.0.1gl0
-gardenlinux/package-golang 1.24.2-2gl0
+gardenlinux/package-golang 1.24.4-1gl0+bp1877
 gardenlinux/package-golang-github-checkpoint-restore-go-criu-dev 7.2.0+ds1-2gl0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-google-compute-engine 20250627.00gl0
@@ -40,7 +40,7 @@ gardenlinux/package-libsepol2 3.8.1-1gl0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-1gl0
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.12.36-1gl0
+gardenlinux/package-linux 6.12.40-2gl0
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
@@ -70,5 +70,6 @@ gardenlinux/package-tcpdump 4.99.5-2gl0
 gardenlinux/package-uid-wrapper null
 gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.1-1gl0
-gardenlinux/bp-package-jq 1.7.1-6-0gl0+bp1877
+gardenlinux/bp-package-jq 1.8.1-3gl0+bp1877
 gardenlinux/bp-package-libzstd 1.5.7+dfsg-1gl0+bp1877
+gardenlinux/bp-package-sudo 1.9.16p2-3gl0+bp1877
