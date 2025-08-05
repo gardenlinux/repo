@@ -40,7 +40,7 @@ gardenlinux/package-libsepol2 3.8.1-1gl0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-1gl0
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.12.40-2gl0
+gardenlinux/package-linux 6.12.41-2gl0
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
