@@ -57,7 +57,7 @@ gardenlinux/package-tcpdump 4.99.5-2gl0+bp1592
 gardenlinux/package-krb5 1.21.3-5gl0+bp1592
 gardenlinux/package-google-compute-engine-oslogin 20250624.00gl1+bp1592
 gardenlinux/package-google-compute-engine 20250221.00gl1+bp1592
-gardenlinux/package-google-guest-agent 20250628.00gl2+bp1592
+gardenlinux/package-google-guest-agent 20250703.00gl0+bp1592
 gardenlinux/bp-package-azure-vm-utils 0.5.1-1gl0+bp1592
 gardenlinux/bp-package-coreutils 9.5-1gl0+bp1592
 gardenlinux/bp-package-glib2.0 2.80.4-1gl0+bp1592
