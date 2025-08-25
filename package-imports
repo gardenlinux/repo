@@ -64,6 +64,7 @@ ipvsadm
 isolinux
 jq
 kernel-wedge
+kdump-tools
 kexec-tools
 keyutils
 libarchive-tools
@@ -83,6 +84,7 @@ lz4
 lzip
 lzop
 make
+makedumpfile
 man-db
 mdadm
 mstflint
