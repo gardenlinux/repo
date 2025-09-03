@@ -34,7 +34,7 @@ gardenlinux/package-tar null
 gardenlinux/package-jinja2 3.1.5-1gl0
 gardenlinux/package-htop 3.3.0-4gardenlinux0
 gardenlinux/package-openssl 3.2.4-1gl0+bp1592
-gardenlinux/package-linux 6.6.101-1gl0+bp1592
+gardenlinux/package-linux 6.6.103-0gl0+bp1592
 gardenlinux/package-libpcap 1.10.4-5gl1+bp1592
 gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-1gl0+bp1592
 gardenlinux/package-curl 8.14.1-2gl0+bp1592
@@ -62,7 +62,7 @@ gardenlinux/bp-package-azure-vm-utils 0.5.1-1gl0+bp1592
 gardenlinux/bp-package-coreutils 9.5-1gl0+bp1592
 gardenlinux/bp-package-glib2.0 2.80.4-1gl0+bp1592
 gardenlinux/bp-package-glibc 2.39-6gl0+bp1592
-gardenlinux/bp-package-gnutls28 3.8.9-2gl0+bp1592
+gardenlinux/bp-package-gnutls28 3.8.9-3gl1+bp1592
 gardenlinux/bp-package-golang-golang-x-net-dev 0.27.0-2gl0+bp1592
 gardenlinux/bp-package-golang-net 0.33.0-1gl0+bp1592
 gardenlinux/bp-package-golang-x-crypto 0.36.0-1+exp1gl0+bp1592
@@ -78,4 +78,6 @@ gardenlinux/bp-package-setuptools 78.1.1-0.1-2gl1+bp1592
 gardenlinux/bp-package-sudo 1.9.16p2-3gl0+bp1592
 gardenlinux/bp-package-vim 9.1.1230-1gl0+bp1592
 gardenlinux/bp-package-wget 1.25.0-2gl0
-github.com/gardenlinux/bp-package-busybox 1.37.0-6gl0+bp1592
+gardenlinux/bp-package-busybox 1.37.0-6gl0+bp1592
+gardenlinux/bp-package-dpkg 1.22.21gl0+bp1592
+gardenlinux/bp-package-sqlite3 3.46.1-7gl0+bp1592
