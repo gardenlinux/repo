@@ -25,7 +25,7 @@ gardenlinux/package-perl 5.38.2-5gl0+bp1592
 gardenlinux/package-python3.11 3.11.9-1gardenlinux0
 gardenlinux/package-refpolicy 2.20240723-2gardenlinux0
 gardenlinux/package-rsync 3.3.0+ds1-4gl0+bp1592
-gardenlinux/package-runc 1.1.12+ds1-2gl6+bp1592
+gardenlinux/package-runc 1.1.15+ds1-1gl7+bp1592
 gardenlinux/package-selinux-basics 0.5.9gardenlinux0
 gardenlinux/package-sops 3.8.1-0gardenlinux0
 gardenlinux/package-sudosh2 1.0.7gardenlinux0
