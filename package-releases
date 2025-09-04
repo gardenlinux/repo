@@ -42,6 +42,7 @@ gardenlinux/package-fail2ban 1.1.0-4gardenlinux0
 gardenlinux/package-xz-utils 5.8.1-1gl0+bp1592
 gardenlinux/package-open-vm-tools null
 gardenlinux/package-deborphan 1.7.35gardenlinux0
+gardenlinux/package-golang-github-checkpoint-restore-go-criu-dev 7.2.0+ds1-2gl0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-sssd 2.9.5-3gl0
 gardenlinux/package-efitools 1.9.2-3gardenlinux0
