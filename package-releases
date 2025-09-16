@@ -2,7 +2,7 @@ gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
 gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
 gardenlinux/package-bind9 9.20.4-4gl0
 gardenlinux/package-bootloader 0.1.1gl0
-gardenlinux/package-cloud-init null
+gardenlinux/package-cloud-init 25.1.4-1gl0+bp1877
 gardenlinux/package-containerd 2.1.4-0gl1+bp1877
 gardenlinux/package-curl 8.14.1-2gl0+bp1877
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-9gl0
@@ -40,7 +40,7 @@ gardenlinux/package-libsepol2 3.8.1-1gl0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-1gl0
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.12.44-3gl0
+gardenlinux/package-linux 6.12.47-3gl0+bp1877
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
