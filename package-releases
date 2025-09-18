@@ -5,7 +5,7 @@ gardenlinux/package-libyang2 null
 gardenlinux/package-ignition 2.19.0-0gardenlinux0
 gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
 gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
-gardenlinux/package-cloud-init 25.1.4-1gl0+bp1592
+gardenlinux/package-cloud-init 25.1.4-1gl1+bp1592
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-6gardenlinux0
 gardenlinux/package-docker-machine 0.16.2+gitlab.23-0gardenlinux0
 gardenlinux/package-ferm 2.7-0gardenlinux0
