@@ -15,7 +15,7 @@ jobs:
           currentdate="$(date -u '+%Y-%m-%d')"
           datediff=$(( "$(date -u -d "$currentdate" '+%s')" - "$(date -u -d "$gl_start" '+%s')" ))
           days_since_start=$(( datediff / 86400 ))
-          echo "version=$days_since_start.0" >> "$GITHUB_OUTPUT"
+          echo "version=$days_since_start.0.0" >> "$GITHUB_OUTPUT"
       - name: resolve container digest
         run: |
           set -o noclobber
