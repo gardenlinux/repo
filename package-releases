@@ -64,7 +64,7 @@ gardenlinux/package-sops 3.8.1-0gardenlinux0
 gardenlinux/package-sssd null
 gardenlinux/package-sudosh2 1.0.7gardenlinux0
 gardenlinux/package-syslinux null
-gardenlinux/package-systemd 257.5-2gl0
+gardenlinux/package-systemd 257.8-1+deb13u1gl0+bp1877
 gardenlinux/package-tar null
 gardenlinux/package-tcpdump 4.99.5-2gl0
 gardenlinux/package-uid-wrapper null
