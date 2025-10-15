@@ -77,5 +77,6 @@ gardenlinux/bp-package-iputils 20250605-1gl0+bp1877
 gardenlinux/bp-package-jq 1.8.1-3gl0+bp1877
 gardenlinux/bp-package-libzstd 1.5.7+dfsg-1gl0+bp1877
 gardenlinux/bp-package-linux-base 4.12gl0+bp1877
+gardenlinux/bp-package-pcre2 10.46-1+deb13u1gl0+bp1877
 gardenlinux/bp-package-sudo 1.9.16p2-3gl0+bp1877
 gardenlinux/bp-package-sqlite3 3.46.1-7gl0+bp1877
