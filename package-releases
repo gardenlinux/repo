@@ -38,7 +38,7 @@ gardenlinux/package-libpcap 1.10.5-2gl0
 gardenlinux/package-libsemanage 3.8.1-1gl0
 gardenlinux/package-libsepol2 3.8.1-1gl0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
-gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-1gl0+bp1877
+gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-1gl1+bp1877
 gardenlinux/package-libyang2 null
 gardenlinux/package-linux 6.12.47-3gl0+bp1877
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
