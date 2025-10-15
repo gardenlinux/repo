@@ -71,6 +71,7 @@ gardenlinux/package-uid-wrapper null
 gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.1-1gl0
 gardenlinux/bp-package-dpkg 1.22.21gl0+bp1877
+gardenlinux/bp-package-glib 2.84.4-3gl0+bp1877
 gardenlinux/bp-package-gnutls28 3.8.9-3gl0+bp1877
 gardenlinux/bp-package-iputils 20250605-1gl0+bp1877
 gardenlinux/bp-package-jq 1.8.1-3gl0+bp1877
