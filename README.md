@@ -104,6 +104,11 @@ Create a branch to remove all files / actions, place a README to record the hist
  git tag null
  git push origin null
 ```
+ - Create the Release (important), with a non-empty file
+```
+ echo null > ~/null
+ gh release create null ~/null --latest --notes null --title 'ignore package for repo import'
+```
  - Archive the repo in GitHub 
 ```
  Web browser > github.com/gardenlinux/package-NAME_repo > Settings > Danger Zone > Archive
