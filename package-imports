@@ -8,6 +8,7 @@ arptables
 auditd
 awscli
 azure-vm-utils
+bind9-dnsutils
 binutils
 bridge-utils
 bsdextrautils
@@ -29,7 +30,6 @@ debuginfod
 devscripts
 dkms
 dnsmasq
-dnsutils
 docker-cli
 docker.io
 dosfstools
