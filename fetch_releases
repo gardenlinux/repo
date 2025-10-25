@@ -11,11 +11,13 @@ exclude_pattern='package-build'
 get_list_of_gh_repositories() {
     # This API call is used to list all repositories within our organization. It will only search
     # for repositories containg a package keyword.
+    # It will return a sorted list of github repositories starting with 'package-'.
     # https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#list-organization-repositories
     gh api --paginate "/orgs/$org/repos" \
                    | jq -r '.[] | .name' \
                    | grep -xE "$match_pattern" \
-                   | grep -vxE "$exclude_pattern"
+                   | grep -vxE "$exclude_pattern" \
+                   | sort
 }
 
 
