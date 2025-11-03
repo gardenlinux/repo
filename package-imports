@@ -68,8 +68,8 @@ iputils-arping
 ipvsadm
 isolinux
 jq
-kernel-wedge
 kdump-tools
+kernel-wedge
 kexec-tools
 keyutils
 libarchive-tools
@@ -102,6 +102,7 @@ nfs-common
 nfs-kernel-server
 nftables
 nginx
+nmap
 nodejs
 npm
 nullmailer
@@ -156,6 +157,7 @@ sgml-base
 shellcheck
 slirp4netns
 smartmontools
+snmp
 socat
 sosreport
 sshfs
@@ -171,6 +173,7 @@ systemd-cron
 tcpd
 tcpdump
 tgt
+tmux
 tpm2-tools
 traceroute
 unzip
