@@ -82,6 +82,7 @@ libxi6
 libxtst6
 linux-base
 lsb-release
+lshw
 lsof
 lsscsi
 lvm2
