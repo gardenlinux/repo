@@ -171,6 +171,7 @@ syslinux
 syslinux-common
 sysstat
 systemd-cron
+targetcli-fb
 tcpd
 tcpdump
 tgt
