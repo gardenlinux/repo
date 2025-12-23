@@ -4,7 +4,7 @@ gardenlinux/package-bind9 9.20.4-4gl0
 gardenlinux/package-bootloader 0.1.1gl0
 gardenlinux/package-cloud-init 25.1.4-1gl1+bp1877
 gardenlinux/package-containerd 2.1.6-0gl0+bp1877
-gardenlinux/package-curl 8.14.1-2gl0+bp1877
+gardenlinux/package-curl 8.14.1-2+deb13u2gl1+bp1877
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-9gl0
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-deborphan 1.7.35gardenlinux0
