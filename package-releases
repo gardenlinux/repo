@@ -53,7 +53,7 @@ gardenlinux/package-pam 1.7.0-3gl0
 gardenlinux/package-perl 5.40.1-7gl1+bp1877
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
-gardenlinux/package-python3.13 3.13.5-2gl0+bp1877
+gardenlinux/package-python3.13 3.13.3-2gl0
 gardenlinux/package-refpolicy 2.20250213-5gl0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/package-rsync 3.3.0+ds1-4gl0
