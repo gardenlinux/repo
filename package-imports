@@ -171,9 +171,11 @@ syslinux
 syslinux-common
 sysstat
 systemd-cron
+targetcli-fb
 tcpd
 tcpdump
 tgt
+thin-provisioning-tools
 tmux
 tpm2-tools
 traceroute
