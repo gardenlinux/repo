@@ -45,6 +45,8 @@ efitools
 elfutils
 ethtool
 execline
+exim4
+exim4-daemon-light
 fatresize
 fio
 flex
@@ -56,7 +58,6 @@ git
 gnupg
 google-compute-engine-oslogin
 google-guest-agent
-haveged
 hdparm
 inetutils-ping
 iperf
@@ -103,6 +104,7 @@ nfs-common
 nfs-kernel-server
 nftables
 nginx
+nginx-light
 nmap
 nodejs
 npm
