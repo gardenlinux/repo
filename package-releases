@@ -71,7 +71,6 @@ gardenlinux/package-uid-wrapper null
 gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.1-1gl0
 gardenlinux/bp-package-dpkg 1.22.21gl0+bp1877
-gardenlinux/bp-package-dracut 108-7gl0+bp1877
 gardenlinux/bp-package-freeradius 3.2.8+dfsg-1gl0+bp1877
 gardenlinux/bp-package-glib2.0 2.86.3-1gl1+bp1877
 gardenlinux/bp-package-glibc 2.41-12+deb13u1gl0+bp1877
@@ -90,4 +89,4 @@ gardenlinux/bp-package-pygobject 3.50.0-5gl0+bp1877
 gardenlinux/bp-package-requests 2.32.5+dfsg-1gl0+bp1877
 gardenlinux/bp-package-sudo 1.9.16p2-3gl0+bp1877
 gardenlinux/bp-package-sqlite3 3.46.1-7gl0+bp1877
-gardenlinux/bp-package-util-linux 2.41.3-3gl0+bp1877
+gardenlinux/bp-package-util-linux 2.41-4gl0+bp1877
