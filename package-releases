@@ -46,7 +46,6 @@ gardenlinux/package-neofetch null
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
 gardenlinux/package-open-vm-tools 13.0.5-1gl0+bp1877
 gardenlinux/package-openssh 10.2p1-3gl0+bp1877
-gardenlinux/package-openssl 3.5.5-1gl0
 gardenlinux/package-oras 1.2.0-0gardenlinux0
 gardenlinux/package-ostree null
 gardenlinux/package-pam 1.7.0-5gl0
@@ -74,7 +73,6 @@ gardenlinux/bp-package-dpkg 1.22.21gl0+bp1877
 gardenlinux/bp-package-freeradius 3.2.8+dfsg-1gl0+bp1877
 gardenlinux/bp-package-glib2.0 2.87.2-1gl0+bp1877
 gardenlinux/bp-package-glibc 2.41-12+deb13u1gl0+bp1877
-gardenlinux/bp-package-gnutls28 3.8.11-3gl0+bp1877
 gardenlinux/bp-package-iputils 20250605-1gl1+bp1877
 gardenlinux/bp-package-jq 1.8.1-3gl0+bp1877
 gardenlinux/bp-package-libzstd 1.5.7+dfsg-1gl0+bp1877
@@ -90,3 +88,8 @@ gardenlinux/bp-package-requests 2.32.5+dfsg-1gl0+bp1877
 gardenlinux/bp-package-sudo 1.9.16p2-3gl0+bp1877
 gardenlinux/bp-package-sqlite3 3.46.1-7gl0+bp1877
 gardenlinux/bp-package-util-linux 2.41-4gl0+bp1877
+gardenlinux/package-libkcapi 1.5.0-2gl4+bp1877
+gardenlinux/package-coreutils 9.7-3gl0+bp1877
+gardenlinux/package-openssl 3.5.5-1gl10+bp1877
+gardenlinux/package-gnutls 3.8.12-3gl0+bp1877
+gardenlinux/package-libgcrypt 1.11.2-3gl2+bp1877
