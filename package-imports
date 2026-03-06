@@ -185,6 +185,7 @@ usr-is-merged
 vim
 waagent
 wget
+wireguard-tools
 xfsprogs
 yq
 zstd
