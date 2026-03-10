@@ -44,7 +44,7 @@ gardenlinux/package-krb5 1.21.3-5gl0
 gardenlinux/package-libcap2 2.75-7gl0
 gardenlinux/package-libguestfs 1.54.1-1gl0
 gardenlinux/package-libpam-ssh 2.3+ds-6gardenlinux0
-gardenlinux/package-libpcap 1.10.5-2gl0
+gardenlinux/package-libpcap 1.10.6-1gl0+bp1877
 gardenlinux/package-libsemanage 3.8.1-1gl0
 gardenlinux/package-libsepol2 3.8.1-1gl0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
