@@ -96,3 +96,4 @@ gardenlinux/bp-package-requests 2.32.5+dfsg-1gl0+bp1877
 gardenlinux/bp-package-sudo 1.9.16p2-3gl0+bp1877
 gardenlinux/bp-package-sqlite3 3.46.1-7gl0+bp1877
 gardenlinux/bp-package-util-linux 2.41-4gl0+bp1877
+gardenlinux/bp-package-vim 9.1.2141-1gl0+bp1877
