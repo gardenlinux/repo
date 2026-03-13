@@ -44,6 +44,7 @@ ethtool
 fatresize
 flex
 gcc
+gdb
 gdisk
 gettext
 git
