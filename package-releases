@@ -11,8 +11,8 @@ gardenlinux/package-checkbox-provider-tpm2 2.8gl0
 gardenlinux/package-checkbox-support 2.8gl0
 gardenlinux/package-cloud-hypervisor-gl 50.0-1gl5
 gardenlinux/package-cloud-init 25.2-1gl0
-gardenlinux/package-containerd 2.2.1-0gl2
-gardenlinux/package-curl 8.12.1-2gl0
+gardenlinux/package-containerd 2.2.2-0gl3
+gardenlinux/package-curl 8.19.0-1gl0
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-10gl0
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-deborphan 1.7.35gardenlinux0
@@ -30,9 +30,8 @@ gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
 gardenlinux/package-gardenlinux-update 0.9gl0
 gardenlinux/package-glvd 0.0.3gl0
-gardenlinux/package-gnutls 3.8.11-3gl0
-gardenlinux/package-golang 1.25.7-2gl0
-gardenlinux/package-golang-defaults 1.25gl0
+gardenlinux/package-gnutls 3.8.12-3gl0
+gardenlinux/package-golang 1.26.1-1gl0
 gardenlinux/package-golang-github-checkpoint-restore-go-criu-dev 7.2.0+ds1-2gl0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-google-compute-engine 20260121.00gl0
@@ -58,7 +57,7 @@ gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libvirt 11.10.0-2gl6
 gardenlinux/package-libxml2 2.15.1+dfsg-2gl0
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.18.12-1gl1
+gardenlinux/package-linux 6.18.19-1gl0
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
@@ -77,7 +76,7 @@ gardenlinux/package-python3.13 3.13.12-1gl0
 gardenlinux/package-refpolicy 2.20250213-11gl0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/package-rsync 3.3.0+ds1-4gl0
-gardenlinux/package-runc 1.4.0-1gl1
+gardenlinux/package-runc 1.4.1-1gl2
 gardenlinux/package-sbsigntool 0.9.4-5gl0
 gardenlinux/package-selinux-basics 0.6.0gl0
 gardenlinux/package-sops 3.8.1-0gardenlinux0
@@ -85,10 +84,11 @@ gardenlinux/package-sshguard 2.5.1-1gl0
 gardenlinux/package-sssd 2.10.1-2gl0
 gardenlinux/package-sudosh2 1.0.7gardenlinux0
 gardenlinux/package-syslinux null
-gardenlinux/package-systemd 259.1-1gl0
+gardenlinux/package-systemd 260-1gl0
 gardenlinux/package-tar null
 gardenlinux/package-tcpdump 4.99.5-2gl0
 gardenlinux/package-uid-wrapper null
 gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.2-2gl0
 gardenlinux/package-zero-copy-initrd 0.1-1gl0
+gardenlinux/bp-package-vim 9.2.0218-1gl0+bp2150
