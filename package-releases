@@ -84,7 +84,7 @@ gardenlinux/package-sshguard 2.5.1-1gl0
 gardenlinux/package-sssd 2.10.1-2gl0
 gardenlinux/package-sudosh2 1.0.7gardenlinux0
 gardenlinux/package-syslinux null
-gardenlinux/package-systemd 260-1gl0
+gardenlinux/package-systemd 259.5-1gl0
 gardenlinux/package-tar null
 gardenlinux/package-tcpdump 4.99.5-2gl0
 gardenlinux/package-uid-wrapper null
