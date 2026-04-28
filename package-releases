@@ -33,12 +33,13 @@ gardenlinux/package-gardenlinux-update 0.9gl0+bp2150
 gardenlinux/bp-package-glibc 2.42-15gl0+bp2150
 gardenlinux/package-glvd 0.0.3gl0
 gardenlinux/package-gnutls 3.8.12-3gl0
-gardenlinux/package-golang 1.26_1.26.2-1gl0+bp2150
+gardenlinux/package-golang 1.26.2-1gl0+bp2150
+gardenlinux/bp-package-golang-defaults 1.26gl0+bp2150
 gardenlinux/package-golang-github-checkpoint-restore-go-criu-dev 7.2.0+ds1-2gl0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-google-compute-engine 20260121.00gl0
 gardenlinux/package-google-compute-engine-oslogin 20250624.00gl0
-gardenlinux/package-google-guest-agent 20250703.00gl1
+gardenlinux/package-google-guest-agent 20250703.00gl0+bp2150
 gardenlinux/package-htop 3.4.1-5gl0
 gardenlinux/package-htop-dev 3.4.1-5gl0
 gardenlinux/package-ignition 2.26.0-1gl0+bp2150
