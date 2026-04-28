@@ -96,4 +96,3 @@ gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.2-2gl0
 gardenlinux/package-zero-copy-initrd 0.1-1gl0
 gardenlinux/bp-package-vim 9.2.0218-1gl0+bp2150
-
