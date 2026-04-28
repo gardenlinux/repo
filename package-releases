@@ -10,7 +10,7 @@ gardenlinux/package-checkbox-provider-resource 2.8gl0
 gardenlinux/package-checkbox-provider-tpm2 2.8gl0
 gardenlinux/package-checkbox-support 2.8gl0
 gardenlinux/package-cloud-hypervisor-gl 50.0-1gl5
-gardenlinux/package-cloud-init 26.1-1gl0
+gardenlinux/package-cloud-init 26.1-1gl0+bp2150
 gardenlinux/package-containerd 2.2.3-0gl0+bp2150
 gardenlinux/package-curl 8.19.0-2gl0
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-10gl0
@@ -29,7 +29,8 @@ gardenlinux/package-ffmpeg null
 gardenlinux/package-frr 10.3-0gl1
 gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
-gardenlinux/package-gardenlinux-update 0.9gl0
+gardenlinux/package-gardenlinux-update 0.9gl0+bp2150
+gardenlinux/bp-package-glibc 2.42-15gl0+bp2150
 gardenlinux/package-glvd 0.0.3gl0
 gardenlinux/package-gnutls 3.8.12-3gl0
 gardenlinux/package-golang 1.26_1.26.2-1gl0+bp2150
