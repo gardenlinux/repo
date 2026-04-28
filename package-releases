@@ -12,7 +12,7 @@ gardenlinux/package-checkbox-support 2.8gl0
 gardenlinux/package-cloud-hypervisor-gl 50.0-1gl5
 gardenlinux/package-cloud-init 26.1-1gl0+bp2150
 gardenlinux/package-containerd 2.2.3-0gl0+bp2150
-gardenlinux/package-curl 8.19.0-2gl0+bp2150
+gardenlinux/package-curl 8.19.0-2gl2+bp2150
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-10gl0
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-deborphan 1.7.35gardenlinux0
@@ -63,6 +63,7 @@ gardenlinux/package-libyang2 null
 gardenlinux/package-linux 6.18.24-1gl0+bp2150
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
+gardenlinux/package-nghttp2 1.68.1-1gl0+bp2150
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
 gardenlinux/package-open-vm-tools null
 gardenlinux/package-openssh 10.3p1-1gl0+bp2150
@@ -95,3 +96,4 @@ gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.2-2gl0
 gardenlinux/package-zero-copy-initrd 0.1-1gl0
 gardenlinux/bp-package-vim 9.2.0218-1gl0+bp2150
+
