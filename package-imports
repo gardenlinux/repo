@@ -170,6 +170,7 @@ sshfs
 sshguard
 sssd
 strace
+stress-ng
 sudo
 swtpm
 syslinux
