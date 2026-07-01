@@ -18,11 +18,12 @@ gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-deborphan 1.7.35gardenlinux0
 gardenlinux/package-docker-machine 0.16.2+gitlab.23-0gardenlinux0
 gardenlinux/package-dpkg 1.23.7gl0+bp2150
+gardenlinux/package-dhcpd 10.3.2-4gl0+bp2150
 gardenlinux/package-dracut 110-1gl0
 gardenlinux/package-dropbear-static 2025.88-2gl0
 gardenlinux/package-edk2-cloud-hypervisor-gl 20250503-7gl0
 gardenlinux/package-efitools null
-gardenlinux/package-expat 2.8.1-1gl0+bp2150
+gardenlinux/package-expat 2.8.2-1gl0+bp2150
 gardenlinux/package-fail2ban 1.1.0-4gardenlinux0
 gardenlinux/package-ferm 2.7-2gl0
 gardenlinux/package-ffmpeg null
@@ -48,7 +49,7 @@ gardenlinux/package-iproute2 6.18.0-1gl0
 gardenlinux/package-jinja2 3.1.5-1gl0
 gardenlinux/package-kexec-tools 2.0.32-3gl0
 gardenlinux/package-keylime-agent 0.2.7.2gl0
-gardenlinux/package-krb5 1.22.1-2.1gl0+bp2150
+gardenlinux/package-krb5 1.22.1-3gl0+bp2150
 gardenlinux/package-libcap2 2.75-10+deb13u1gl0+bp2150
 gardenlinux/package-libgcrypt 1.11.2-3gl0
 gardenlinux/package-libguestfs 1.56.2-6gl0
@@ -101,5 +102,5 @@ gardenlinux/bp-package-ngtcp2 1.22.1-1gl0+bp2150
 gardenlinux/bp-package-pyjwt 2.13.0-1gl0+bp2150
 gardenlinux/bp-package-samba 4.24.3+dfsg-1gl0+bp2150
 gardenlinux/bp-package-sudo 1.9.17p2-7gl0+bp2150
-gardenlinux/bp-package-util-linux 2.42.1-3gl0+bp2150
+gardenlinux/bp-package-util-linux 2.42.2-1gl0+bp2150
 gardenlinux/bp-package-vim 9.2.0524-1gl0+bp2150
