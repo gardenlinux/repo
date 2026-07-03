@@ -48,6 +48,7 @@ ethtool
 execline
 fatresize
 fio
+fish
 flex
 gcc
 gdb
