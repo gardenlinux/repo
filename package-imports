@@ -48,11 +48,13 @@ ethtool
 execline
 fatresize
 fio
+fish
 flex
 gcc
 gdb
 gdisk
 gettext
+gh
 git
 gnupg
 google-compute-engine-oslogin
@@ -169,6 +171,7 @@ sshfs
 sshguard
 sssd
 strace
+stress-ng
 sudo
 swtpm
 syslinux
