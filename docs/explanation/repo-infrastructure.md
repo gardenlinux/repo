@@ -48,6 +48,10 @@ flowchart TD
 	pkg -- get release artifacts --> repo
 	s3_snapshot -- get dependencies and imports --> repo
 	repo -- publish --> s3
+
+	class deb input
+	class snapshot,pkg_build,pkg,ghcr_snapshot,s3_snapshot,repo decision
+	class s3 output
 ```
 
 ## Release Hierarchy
