@@ -24,7 +24,7 @@ github_target_path: docs/explanation/repo-infrastructure.md
 
 # Repository Infrastructure
 
-This document provides a deep dive into the technical infrastructure that powers the Garden Linux repository system, including AWS setup, release processes and maintenance procedures.
+This document provides a describes the technical infrastructure that powers the Garden Linux repository system, including AWS setup, release processes and maintenance procedures.
 
 ```mermaid
 flowchart TD
