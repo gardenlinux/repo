@@ -75,7 +75,7 @@ The repo-debian-snapshot system was designed to address several requirements:
 - **Long-Term Validity**: Snapshot repository metadata is signed with a 100-year validity period, preventing expiration issues that would break older builds. In contrast, the official Debian snapshot service uses keys with much shorter validity periods, which can cause builds to fail when accessing older snapshots
 - **Performance**: Lightweight metadata-only snapshots are faster to create and require less storage than archiving full package files
 - **Control**: Garden Linux can create snapshots at precisely the times needed for releases rather than relying on external snapshot schedules
-- **AWS Integration**: Tight integration with AWS infrastructure enables seamless signing, storage, and distribution
+- **AWS Integration**: Tight integration with AWS infrastructure enables automatic signing, storage, and distribution
 - **Focused Scope**: Snapshots contain only what Garden Linux needs (testing, specific architectures) rather than the entire Debian archive history
 
 ### What repo-debian-snapshot Does
@@ -108,7 +108,7 @@ Debian snapshots serve two critical roles:
 
 ## AWS Infrastructure
 
-Garden Linux leverages AWS services to host and distribute its package repositories:
+Garden Linux uses AWS services to host and distribute its package repositories:
 
 ### S3 Bucket Structure
 
