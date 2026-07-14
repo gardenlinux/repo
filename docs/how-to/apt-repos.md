@@ -1,6 +1,6 @@
 ---
 title: Creating APT Repository Releases
-description: Comprehensive guide to creating releases for Garden Linux APT repositories
+description: Complete guide to creating releases for Garden Linux APT repositories
 order: 2
 related_topics:
   - /explanation/release-hierarchy.md
@@ -34,7 +34,7 @@ This document is about the second tier, the [Repository Infrastructure](/explana
 
 ## Understanding APT Repository Releases
 
-Please read the [APT Repository Infrastructure](/explanation/repo-infrastructure.md) to get familiar with the concepts for the Releases.
+Read the [APT Repository Infrastructure](/explanation/repo-infrastructure.md) to get familiar with the concepts for the Releases.
 
 ## Prerequisites
 
