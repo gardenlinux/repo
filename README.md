@@ -2,11 +2,11 @@
 
 ## Documentation
 
-Our [documentation hub](https://gardenlinux-docs.netlify.app/) contains detailed
+Our [documentation hub](https://docs.gardenlinux.org/) contains detailed
 documentation about the following topics in this repository:
 
-- [Repository Infrastructure](https://gardenlinux-docs.netlify.app/explanation/repo-infrastructure.html)
-- [Creating APT Repository Releases](https://gardenlinux-docs.netlify.app/how-to/releases/apt-repos.html)
+- [Repository Infrastructure](https://docs.gardenlinux.org/explanation/repo-infrastructure.html)
+- [Creating APT Repository Releases](https://docs.gardenlinux.org/how-to/releases/apt-repos.html)
 
 # Community
 
@@ -29,7 +29,7 @@ https://lists.neonephos.org/g/gardenlinux-security-embargo
 We welcome your contributions to Gardenlinux or any supporting projects.
 
 To find our more, visit our
-[Contributor Documentation](https://gardenlinux-docs.netlify.app/contributing).
+[Contributor Documentation](https://docs.gardenlinux.org/contributing).
 
 ## Licensing
 
