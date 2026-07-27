@@ -59,7 +59,7 @@ gardenlinux/package-openssh 10.3p1-2gl0+bp1877
 gardenlinux/package-oras 1.2.0-0gardenlinux0
 gardenlinux/package-ostree null
 gardenlinux/package-pam 1.7.0-5gl0
-gardenlinux/package-perl 5.40.1-7gl1+bp1877
+gardenlinux/package-perl 5.40.1-8gl1+bp1877
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
 gardenlinux/package-python3.13 3.13.14-1gl0+bp1877
