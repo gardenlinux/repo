@@ -100,3 +100,4 @@ gardenlinux/bp-package-sqlite3 3.46.1-9gl0+bp1877
 gardenlinux/bp-package-util-linux 2.41-4gl0+bp1877
 gardenlinux/bp-package-vim 9.2.0461-1gl0+bp1877
 gardenlinux/bp-package-samba 4.22.8+dfsg-0+deb13u1gl0+bp1877
+gardenlinux/bp-package-pyjwt 2.13.0-1gl0+bp1877
