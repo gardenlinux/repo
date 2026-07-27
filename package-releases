@@ -1,7 +1,7 @@
 gardenlinux/package-apt 3.1.16gl1+bp1877
 gardenlinux/package-libkcapi 1.5.0-2gl4+bp1877
 gardenlinux/package-coreutils 9.7-2gl0+bp1877
-gardenlinux/package-openssl 3.5.5-1gl51+bp1877
+gardenlinux/package-openssl 3.5.5-1gl55+bp1877
 gardenlinux/package-gnutls 3.8.12-3gl0+bp1877
 gardenlinux/package-libgcrypt 1.11.2-3gl2+bp1877
 gardenlinux/package-linux 6.12.95-1gl12+bp1877
