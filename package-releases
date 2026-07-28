@@ -1,7 +1,7 @@
 gardenlinux/package-apt 3.1.16gl1+bp1877
 gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
 gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
-gardenlinux/package-bind9 9.20.17-1gl0+bp1877
+gardenlinux/package-bind9 9.20.26-1gl0+bp1877
 gardenlinux/package-bootloader 0.1.1gl0
 gardenlinux/package-cloud-init 25.1.4-1gl1+bp1877
 gardenlinux/package-containerd 2.2.5-0gl1+bp1877
