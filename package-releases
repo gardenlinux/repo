@@ -53,7 +53,7 @@ gardenlinux/package-neofetch null
 gardenlinux/package-nghttp2 1.68.1-1gl0+bp1877
 gardenlinux/package-onmetal-image 0.1.1-0gardenlinux0
 gardenlinux/package-open-vm-tools 13.0.5-1gl0+bp1877
-gardenlinux/package-openssh 10.3p1-2gl0+bp1877
+gardenlinux/package-openssh 10.4p1-2gl0+bp1877
 gardenlinux/package-openssl 3.5.5-1gl55+bp1877
 gardenlinux/package-oras 1.2.0-0gardenlinux0
 gardenlinux/package-ostree null
