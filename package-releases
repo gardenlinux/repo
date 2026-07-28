@@ -68,6 +68,7 @@ gardenlinux/package-rsync 3.3.0+ds1-4gl0
 gardenlinux/package-runc 1.3.5-1gl1+bp1877
 gardenlinux/package-sbsigntool 0.9.4-3.2gl0
 gardenlinux/package-selinux-basics 0.6.0gl0
+gardenlinux/package-socat 1.8.1.3-2gl0+bp1877
 gardenlinux/package-sops 3.8.1-0gardenlinux0
 gardenlinux/package-sssd null
 gardenlinux/package-sudosh2 1.0.7gardenlinux0
