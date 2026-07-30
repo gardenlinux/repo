@@ -23,7 +23,10 @@ jobs:
           sudo rm -rf /{usr/{local/{lib/{android,heroku},.ghcup,share/{dotnet,powershell,miniconda,swift}},share/{dotnet,miniconda,swift}},opt/{hostedtoolcache,microsoft},imagegeneration}
           sudo docker system prune -a -f
       - name: setup binfmt
-        run: sudo podman run --privileged ghcr.io/gardenlinux/binfmt_container
+        run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
+          sudo podman run --privileged ghcr.io/gardenlinux/binfmt_container
       - uses: actions/checkout@v4
       - name: resolve container digest
         if: github.ref_type != 'tag'
@@ -40,6 +43,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
           if [ ! -e package-releases ]; then
             podman build -t build --build-arg base="$(cat .container)" .
             podman run --rm -e GH_TOKEN build /fetch_releases > package-releases
@@ -48,6 +53,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
           container="$(cat .container)"
           podman pull "$container"
           podman build -t build --build-arg base="$container" .
@@ -55,6 +62,8 @@ jobs:
           podman run --rm -v "$PWD/repo:/repo" -v "$PWD/package-releases:/package-releases" -v "$PWD/package-imports:/package-imports" -v "$PWD/package-exclude:/package-exclude" -e GH_TOKEN build /download_pkgs /repo /package-releases /package-imports /package-exclude
       - name: build kms signing container
         run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
           podman build -t kms kms
           podman build -t build --build-arg base=kms .
       - uses: aws-actions/configure-aws-credentials@v4
@@ -86,6 +95,8 @@ jobs:
       - name: create dist ${{ github.ref_name }}
         if: steps.check.outputs.new_dist == 'true'
         run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
           podman run --rm \
             -e 'AWS_*' \
             -e 'KMS_KEY_ID=${{ secrets.KMS_KEY_ID }}' \
@@ -97,6 +108,8 @@ jobs:
       - name: create dist experimental
         if: github.ref_type != 'tag'
         run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
           podman run --rm \
             -e 'AWS_*' \
             -e 'KMS_KEY_ID=${{ secrets.KMS_KEY_ID }}' \
@@ -109,6 +122,8 @@ jobs:
       - name: create dist today
         if: inputs.today
         run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
           podman run --rm \
             -e 'AWS_*' \
             -e 'KMS_KEY_ID=${{ secrets.KMS_KEY_ID }}' \

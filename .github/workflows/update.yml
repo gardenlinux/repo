@@ -27,6 +27,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # TEMPORARY FIX for https://github.com/actions/runner-images/issues/14473
+          podman() { command podman "${1}" --runtime "$(command -v crun)" "${@:2}"; }
           podman build -t build --build-arg base="$(cat .container)" .
           podman run --rm -e GH_TOKEN build /fetch_releases > package-releases
       - name: commit
