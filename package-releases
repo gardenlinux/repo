@@ -2,7 +2,7 @@ gardenlinux/package-acl 2.4.0-1gl0+bp2150
 gardenlinux/package-apt 3.1.15gl0
 gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
 gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
-gardenlinux/package-bind9 9.20.23-1gl0+bp2150
+gardenlinux/package-bind9 9.20.26-1gl0+bp2150
 gardenlinux/package-bootloader 0.1.1gl0
 gardenlinux/package-checkbox-base 2.8gl0
 gardenlinux/package-checkbox-ng 2.8gl0
@@ -63,7 +63,7 @@ gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libvirt 11.10.0-2gl6
 gardenlinux/package-libxml2 2.15.3+dfsg-1gl0+bp2150
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.18.38-1gl1+bp2150
+gardenlinux/package-linux 6.18.40-1gl1+bp2150
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-nghttp2 1.68.1-1gl0+bp2150
@@ -99,6 +99,8 @@ gardenlinux/package-uid-wrapper null
 gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.3-1gl0+bp2150
 gardenlinux/package-zero-copy-initrd 0.1-1gl0
+gardenlinux/package-libusb 1.0.30-1gl0+bp2150
+gardenlinux/package-c-ares 1.34.8-1gl0+bp2150
 gardenlinux/bp-package-jq 1.8.1-8gl0+bp2150
 gardenlinux/bp-package-libssh2 1.11.1-4gl0+bp2150
 gardenlinux/bp-package-ngtcp2 1.22.1-1gl0+bp2150
@@ -106,4 +108,4 @@ gardenlinux/bp-package-pyjwt 2.13.0-1gl0+bp2150
 gardenlinux/bp-package-samba 4.24.3+dfsg-1gl0+bp2150
 gardenlinux/bp-package-sudo 1.9.17p2-7gl0+bp2150
 gardenlinux/bp-package-util-linux 2.42.2-1gl0+bp2150
-gardenlinux/bp-package-vim 9.2.0524-1gl0+bp2150
+gardenlinux/bp-package-vim 9.2.0782-1gl0+bp2150
