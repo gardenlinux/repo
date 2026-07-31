@@ -63,7 +63,7 @@ gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libvirt 11.10.0-2gl6
 gardenlinux/package-libxml2 2.15.3+dfsg-1gl0+bp2150
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.18.40-1gl1+bp2150
+gardenlinux/package-linux 6.18.41-1gl0+bp2150
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-nghttp2 1.68.1-1gl0+bp2150
