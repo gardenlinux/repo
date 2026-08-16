@@ -59,6 +59,9 @@ gardenlinux/package-oras 1.2.0-0gardenlinux0
 gardenlinux/package-ostree null
 gardenlinux/package-pam 1.7.0-5gl0
 gardenlinux/package-perl 5.42.2-3gl0+bp1877
+gardenlinux/package-liblocale-gettext-perl 1.07-7gl0+bp1877
+gardenlinux/package-libtext-iconv-perl 1.7-8gl0+bp1877
+gardenlinux/package-libtext-charwidth-perl 0.04-11gl0+bp1877
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
 gardenlinux/package-python3.13 3.13.14-1gl0+bp1877
