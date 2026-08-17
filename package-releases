@@ -76,7 +76,7 @@ gardenlinux/package-ostree null
 gardenlinux/package-ovh-debian-cis 4.1-5gl0
 gardenlinux/package-pam 1.7.0-5gl0
 gardenlinux/package-pcr-oracle 0.5.4-1gl0
-gardenlinux/package-perl 5.40.1-7+really5.42.2-3gl0+bp2150
+gardenlinux/package-perl 5.40.1-7+really5.42.2-3gl1+bp2150
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
 gardenlinux/package-python3.13 3.13.14-1gl0+bp2150
