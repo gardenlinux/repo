@@ -38,7 +38,7 @@ gardenlinux/package-jinja2 3.1.6-3gl0+bp1877
 gardenlinux/package-krb5 1.21.3-5gl0
 gardenlinux/package-libcap2 2.75-7gl0
 gardenlinux/package-libgcrypt 1.11.2-3gl2+bp1877
-gardenlinux/package-libguestfs 1.54.1-1gl0
+gardenlinux/package-libguestfs 1.54.1-1gl1
 gardenlinux/package-libkcapi 1.5.1-2gl4+bp1877
 gardenlinux/package-libpam-ssh 2.3+ds-6gardenlinux0
 gardenlinux/package-libpcap 1.10.6-1gl0+bp1877
@@ -83,7 +83,7 @@ gardenlinux/package-libtest-leaktrace-perl 0.17-1gl0+bp1877
 gardenlinux/package-liblist-moreutils-xs-perl 0.430-4gl0+bp1877
 gardenlinux/package-libsyntax-keyword-try-perl 0.30-1gl0+bp1877
 gardenlinux/package-libsys-virt-perl 11.1.0-1gl0+bp1877
-gardenlinux/package-libguestfs 1.58.1-8gl0
+gardenlinux/package-net-snmp 5.9.4+dfsg-2gl0
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
 gardenlinux/package-python3.13 3.13.14-1gl0+bp1877
@@ -106,7 +106,7 @@ gardenlinux/package-usr-is-merged null
 gardenlinux/package-xz-utils 5.8.3-1gl0+bp1877
 gardenlinux/package-zlib 1.3.dfsg+really1.3.2-3gl0+bp1877
 gardenlinux/bp-package-dpkg 1.22.21gl0+bp1877
-gardenlinux/bp-package-freeradius 3.2.8+dfsg-1gl0+bp1877
+gardenlinux/bp-package-freeradius 3.2.8+dfsg-1gl1+bp1877
 gardenlinux/bp-package-glib2.0 2.87.2-3gl0+bp1877
 gardenlinux/bp-package-glibc 2.41-12+deb13u1gl0+bp1877
 gardenlinux/bp-package-iputils 20250605-1gl1+bp1877
@@ -127,4 +127,4 @@ gardenlinux/bp-package-samba 4.22.8+dfsg-0+deb13u1gl0+bp1877
 gardenlinux/bp-package-sqlite3 3.46.1-9gl0+bp1877
 gardenlinux/bp-package-sudo 1.9.17p2-7gl0+bp1877
 gardenlinux/bp-package-util-linux 2.41-4gl0+bp1877
-gardenlinux/bp-package-vim 9.2.0461-1gl0+bp1877
+gardenlinux/bp-package-vim 9.2.0858-1gl0+bp1877
