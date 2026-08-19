@@ -61,6 +61,8 @@ gardenlinux/package-libsepol2 3.9-2gl0
 gardenlinux/package-libstoragemgmt 1.9.8-0gardenlinux0
 gardenlinux/package-libusb 1.0.30-1gl0+bp2150
 gardenlinux/package-libvirt 11.10.0-2gl6
+gardenlinux/package-libxml-parser-perl 2.47-1gl0+bp2150
+gardenlinux/package-libxml-libxml-perl 2.0207+dfsg+really+2.0134-7gl0+bp2150
 gardenlinux/package-libxml2 2.15.3+dfsg-1gl0+bp2150
 gardenlinux/package-libyang2 null
 gardenlinux/package-linux 6.18.44-1gl0+bp2150
