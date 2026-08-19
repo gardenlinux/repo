@@ -14,7 +14,7 @@ related_topics:
   - /reference/releases/release-lifecycle
 github_org: gardenlinux
 github_repo: repo
-github_source_path: docs/how-to/releases/apt-repos.md
+github_source_path: docs/how-to/apt-repos.md
 github_target_path: docs/how-to/releases/apt-repos.md
 ---
 
