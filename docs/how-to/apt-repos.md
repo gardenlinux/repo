@@ -45,7 +45,7 @@ The `repo` repository uses two key files to define what goes into a release:
 
 ### package-releases File
 
-The `package-releases` file lists the specific versions of custom-built packages from `package-*` repositories to include in the release.
+The `package-releases` file lists the specific versions of custom-built packages from `gardenlinux/package-*` repositories to include in the release.
 
 **Format**: Each line contains:
 
@@ -56,27 +56,29 @@ The `package-releases` file lists the specific versions of custom-built packages
 **Example**:
 
 ```
-containerd v1.7.13
-kernel 6.6.13
-openssh 9.6p1
-runc v1.1.12
+gardenlinux/package-apt 3.1.15gl0
+gardenlinux/package-openssh 10.4p1-4gl0+bp2150
+gardenlinux/package-openssl 3.5.5-1gl51+bp2150
+gardenlinux/package-python3.11 null
+gardenlinux/package-python3.12 null
+gardenlinux/package-python3.13 3.13.14-1gl0+bp2150
 ```
 
 **How to determine versions**:
 
-1. Check the `package-*` repository for available release tags
+1. Check the `gardenlinux/package-*` repository for available release tags
 2. Verify the package builds successfully in that version
 3. Check dependencies and compatibility with other packages in the release
 
 **To update a package**:
 
 1. Find the package line in `package-releases`
-2. Change the version tag to the desired release from the `package-*` repository
+2. Change the version tag to the desired release from the `gardenlinux/package-*` repository
 3. Verify that the new version is compatible with other packages
 
 ### package-imports File
 
-The `package-imports` file specifies which packages should be imported directly from the Debian snapshot rather than being built from `package-*` repositories.
+The `package-imports` file specifies which packages should be imported directly from the Debian snapshot rather than being built from `gardenlinux/package-*` repositories.
 
 **Format**: Each line contains a Debian package name:
 
@@ -266,9 +268,9 @@ If the GitHub Action fails:
 
 1. **Check the workflow logs**: Click on the failed workflow run in GitHub Actions
 2. **Common issues**:
-   - **Package version doesn't exist**: Verify the tag exists in the `package-*` repository
+   - **Package version doesn't exist**: Verify the tag exists in the `gardenlinux/package-*` repository
    - **Dependency conflicts**: Check if the new package version has dependency requirements that conflict with other packages
-   - **Build errors**: The package may have failed to build properly in the `package-*` repository
+   - **Build errors**: The package may have failed to build properly in the `gardenlinux/package-*` repository
 
 ### Package Not Found After Release
 
