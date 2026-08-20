@@ -260,6 +260,13 @@ Confirm that the packages in the repository match your `package-releases` file:
 apt-cache madison <package-name>
 ```
 
+## Re-Building the APT Repository
+
+::: info For Garden Linux maintainers
+
+For internal advanced steps (for example re-building an APT repository after initial creation), see the [Internal APT Repository Steps](https://pages.github.tools.sap/gardenlinux/docs-ng-internal/how-to/releases/apt-repos-internal.html).
+:::
+
 ## Troubleshooting
 
 ### Build Failures
