@@ -223,14 +223,34 @@ Or check the GitHub Actions page: https://github.com/gardenlinux/repo/actions
 
 After the minor release is published, verify it works correctly:
 
-### Verify APT Repository Structure
+### Verify APT Repository was published
 
 Check that the repository was published to S3:
 
 ```bash
-# The repository should be available at:
-# https://repo.gardenlinux.io/gardenlinux/dists/2150.1.0/
+# The repositorie's InRelease file should be available:
+curl -s https://packages.gardenlinux.io/gardenlinux/dists/2150.1.0/InRelease | grep Codename
+Codename: 2150.1.0
 ```
+
+### Verify Package Version
+
+The `gl-search.sh` script provides a quick way of browsing the repository:
+
+```bash
+# inside a cloned gardenlinux repo
+git clone https://github.com/gardenlinux/gardenlinux
+cd gardenlinux
+
+# gl-search.sh runs interactively
+hack/gl-search.sh
+> gardenlinux
+> 2150.1.0
+> search
+> amd64
+```
+
+The script can also perform dependency checks and download packages for you.
 
 ### Test Package Installation
 
@@ -238,7 +258,7 @@ In a test environment, configure the new repository and test package installatio
 
 ```bash
 # Add the repository (in a test Garden Linux system)
-echo "deb https://repo.gardenlinux.io/gardenlinux 2150.1.0 main" > /etc/apt/sources.list.d/gardenlinux.list
+echo "deb https://packages.gardenlinux.io/gardenlinux 2150.1.0 main" > /etc/apt/sources.list.d/gardenlinux.list
 
 # Update package lists
 apt update
