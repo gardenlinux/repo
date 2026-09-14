@@ -150,7 +150,7 @@ qemu-system
 qemu-utils
 quilt
 quota
-rng-tools5
+rng-tools
 rootlesskit
 rsync
 rsyslog-relp
