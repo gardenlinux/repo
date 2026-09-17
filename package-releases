@@ -81,7 +81,7 @@ gardenlinux/package-pcr-oracle 0.5.4-1gl0
 gardenlinux/package-perl 5.40.1-8+really5.42.3-1gl0+bp2150
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
-gardenlinux/package-python3.13 3.13.14-1gl0+bp2150
+gardenlinux/package-python3.13 3.13.15-1gl0+bp2150
 gardenlinux/package-refpolicy 2.20250213-11gl0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/package-rsync 3.3.0+ds1-4gl0
@@ -94,7 +94,7 @@ gardenlinux/package-sshguard 2.5.1-1gl0
 gardenlinux/package-sssd 2.10.1-2gl0
 gardenlinux/package-sudosh2 1.0.7gardenlinux0
 gardenlinux/package-syslinux null
-gardenlinux/package-systemd 259.8-1gl0+bp2150
+gardenlinux/package-systemd 259.9-1gl0+bp2150
 gardenlinux/package-tar null
 gardenlinux/package-tcpdump 4.99.5-2gl0
 gardenlinux/package-uid-wrapper null
@@ -113,3 +113,4 @@ gardenlinux/bp-package-sudo 1.9.17p2-7gl0+bp2150
 gardenlinux/bp-package-util-linux 2.42.2-1gl0+bp2150
 gardenlinux/bp-package-vim 9.2.0858-1gl0+bp2150
 gardenlinux/bp-package-p11-kit 0.26.5-1gl1+bp2150
+gardenlinux/bp-package-sqlite3 3.53.4-2gl0+bp2150
