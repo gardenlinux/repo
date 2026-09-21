@@ -11,6 +11,9 @@ dir="$(mktemp -d)"
 trap 'cd / && rm -rf "$dir"' EXIT
 cd "$dir"
 
+# extra check in case manual changes to the package-releases added duplicates
+awk '{ print $1 }' "$releases" | sort | uniq -d | grep . && echo "Error: duplicate package in package-releases, exiting!" >&2 && exit 1
+
 mkdir download
 while read -r repo tag; do
 	gh release download --dir download --repo "$repo" "$tag"
