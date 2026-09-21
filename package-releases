@@ -65,7 +65,7 @@ gardenlinux/package-libxml-parser-perl 2.47-1gl0+bp2150
 gardenlinux/package-libxml-libxml-perl 2.0207+dfsg+really+2.0134-7gl0+bp2150
 gardenlinux/package-libxml2 2.15.3+dfsg-1gl0+bp2150
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.18.52-1gl0+bp2150
+gardenlinux/package-linux 6.18.53-1gl0+bp2150
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-nghttp2 1.68.1-1gl0+bp2150
