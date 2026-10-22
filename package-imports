@@ -77,7 +77,6 @@ kexec-tools
 keyutils
 libarchive-tools
 libengine-pkcs11-openssl
-libini-config-dev
 libpam-passwdqc
 libpam-pwquality
 libvirt-clients
