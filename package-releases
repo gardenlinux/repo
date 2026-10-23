@@ -36,7 +36,7 @@ gardenlinux/package-ffmpeg null
 gardenlinux/package-frr 10.3-0gl1
 gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
-gardenlinux/package-gardenlinux-update 0.9gl5+bp2150
+gardenlinux/package-gardenlinux-update 0.9gl6+bp2150
 gardenlinux/package-glvd 0.0.3gl0
 gardenlinux/package-gnupg 2.4.9-8gl0+bp2150
 gardenlinux/package-golang 1.26.9-1gl0+bp2150
