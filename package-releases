@@ -38,7 +38,8 @@ gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
 gardenlinux/package-gardenlinux-update 0.9gl6+bp2150
 gardenlinux/package-glvd 0.0.3gl0
-gardenlinux/package-gnupg 2.4.9-8gl0+bp2150
+gardenlinux/package-gnutls 3.8.13-1gl0+bp2150
+gardenlinux/package-gnupg2 2.4.9-8gl0+bp2150
 gardenlinux/package-golang 1.26.9-1gl0+bp2150
 gardenlinux/package-golang-github-checkpoint-restore-go-criu-dev 7.2.0+ds1-2gl0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
