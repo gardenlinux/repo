@@ -59,7 +59,7 @@ gardenlinux/package-keylime-agent 0.2.7.2gl0
 gardenlinux/package-krb5 1.22.1-3gl0+bp2150
 gardenlinux/package-libcap2 2.75-10+deb13u1gl0+bp2150
 gardenlinux/package-libgcrypt 1.11.2-3gl0
-gardenlinux/package-glib2.0 2.90.1-2gl0+bp2150
+gardenlinux/bp-package-glib2.0 2.87.2-3gl0+bp2150
 gardenlinux/package-libguestfs 1.56.2-6gl0
 gardenlinux/package-libpam-ssh 2.3+ds-6gardenlinux0
 gardenlinux/package-libpcap 1.10.7-1gl0
