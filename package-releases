@@ -7,7 +7,7 @@ gardenlinux/package-c-ares 1.34.8-1gl0+bp1877
 gardenlinux/package-cloud-init 25.1.4-1gl1+bp1877
 gardenlinux/package-containerd 2.3.6-0gl0+bp1877
 gardenlinux/package-coreutils 9.7-2gl0+bp1877
-gardenlinux/package-curl 8.22.0-1gl0+bp1877
+gardenlinux/package-curl 8.23.0-1gl0+bp1877
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-9gl0
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-deborphan 1.7.35gardenlinux0
@@ -118,8 +118,8 @@ gardenlinux/bp-package-libssh2 1.11.1-4gl1+bp1877
 gardenlinux/bp-package-libzstd 1.5.7+dfsg-1gl0+bp1877
 gardenlinux/bp-package-linux-base 4.12gl0+bp1877
 gardenlinux/bp-package-ncurses 6.5+20251123-1gl0+bp1877
-gardenlinux/bp-package-nghttp3 1.11.0-1gl0+bp1877
-gardenlinux/bp-package-ngtcp2 1.16.0-1gl0+bp1877
+gardenlinux/bp-package-nghttp3 1.17.0-1gl0+bp1877
+gardenlinux/bp-package-ngtcp2 1.24.0-1gl0+bp1877
 gardenlinux/bp-package-pcre2 10.46-1+deb13u1gl0+bp1877
 gardenlinux/bp-package-polkit 127-1gl0+bp1877
 gardenlinux/bp-package-pygobject 3.50.0-5gl0+bp1877
