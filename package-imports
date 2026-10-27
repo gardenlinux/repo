@@ -73,7 +73,13 @@ kernel-wedge
 kexec-tools
 keyutils
 libarchive-tools
+libcares2
 libengine-pkcs11-openssl
+libhdr-histogram6
+libicu76
+libllhttp9.3
+libsimdutf31
+libsimdjson29
 libpam-passwdqc
 libpam-pwquality
 libvirt-clients
