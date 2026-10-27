@@ -140,4 +140,4 @@ gardenlinux/bp-package-util-linux 2.42.4-1gl0+bp1877
 gardenlinux/bp-package-vim 9.2.0858-1gl0+bp1877
 gardenlinux/bp-package-wget 1.25.0-3gl0+bp1877
 gardenlinux/bp-package-binutils 2.47-6gl0+bp1877
-gardenlinux/bp-package-brotli 1.2.0-4.1gl0+bp1877
+gardenlinux/bp-package-brotli 1.2.0-4.1gl2+bp1877
