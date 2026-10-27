@@ -11,7 +11,7 @@ index_files="$(mktemp)"
 for arch in all amd64 arm64; do
 	dir="$target/dists/$dist/main/binary-$arch"
 	mkdir -p "$dir"
-	(cd "$target" && dpkg-scanpackages --arch "$arch" pool) > "$dir/Packages"
+	(cd "$target" && dpkg-scanpackages --multiversion --arch "$arch" pool) > "$dir/Packages"
 
 	size="$(wc -c "$dir/Packages" | awk '{ print $1 }')"
 	hash="$(sha256sum "$dir/Packages" | head -c 64)"
