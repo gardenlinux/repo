@@ -104,6 +104,7 @@ nfs-kernel-server
 nftables
 nginx
 nmap
+node-corepack
 nodejs
 npm
 nullmailer
