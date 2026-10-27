@@ -14,7 +14,7 @@ gardenlinux/package-deborphan 1.7.35gardenlinux0
 gardenlinux/package-docker-machine 0.16.2+gitlab.23-0gardenlinux0
 gardenlinux/package-dracut 106-6gl3+bp1877
 gardenlinux/package-efitools null
-gardenlinux/package-expat 2.8.4-2gl0+bp1877
+gardenlinux/package-expat 2.9.0-1gl0+bp1877
 gardenlinux/package-fail2ban 1.1.0-4gardenlinux0
 gardenlinux/package-ferm 2.7-0gardenlinux0
 gardenlinux/package-frr 10.3-0gl1
