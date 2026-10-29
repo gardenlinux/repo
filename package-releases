@@ -76,7 +76,7 @@ gardenlinux/package-libxml-parser-perl 2.47-1gl0+bp1877
 gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-2.1+deb13u2gl0+bp1877
 gardenlinux/package-libxs-parse-keyword-perl 0.48-2gl0+bp1877
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.12.112-1gl14+bp1877
+gardenlinux/package-linux 6.12.114-1gl14+bp1877
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-net-snmp 5.9.4+dfsg-2gl0
