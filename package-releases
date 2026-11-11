@@ -126,6 +126,7 @@ gardenlinux/bp-package-ngtcp2 1.22.1-1gl0+bp2150
 gardenlinux/bp-package-nodejs 24.22.0+dfsg++cs24.19.2-2gl0+bp2150
 gardenlinux/bp-package-p11-kit 0.26.5-1gl1+bp2150
 gardenlinux/bp-package-pcre2 10.48-3gl0+bp2150
+gardenlinux/bp-package-pygobject 3.56.3-2gl0+bp2150
 gardenlinux/bp-package-pyjwt 2.15.1-1gl0+bp2150
 gardenlinux/bp-package-rsyslog 8.2608.0-4gl0+bp2150
 gardenlinux/bp-package-samba 4.24.6+dfsg-1gl0+bp2150
