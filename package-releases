@@ -120,9 +120,9 @@ gardenlinux/bp-package-glib2.0 2.87.2-3gl0+bp1877
 gardenlinux/bp-package-glibc 2.41-12+deb13u4gl0+bp1877
 gardenlinux/bp-package-iputils 20250605-1gl1+bp1877
 gardenlinux/bp-package-jq 1.8.2-1gl0+bp1877
-gardenlinux/bp-package-libevent 2.1.13-stable-1gl0+bp1877
+gardenlinux/bp-package-libevent 2.1.13-stable-1gl1+bp1877
 gardenlinux/bp-package-libssh 0.12.2-1gl0+bp1877
-gardenlinux/bp-package-libssh2 1.11.1-6gl0+bp1877
+gardenlinux/bp-package-libssh2 1.11.1-6gl1+bp1877
 gardenlinux/bp-package-libzstd 1.5.7+dfsg-1gl0+bp1877
 gardenlinux/bp-package-linux-base 4.12gl0+bp1877
 gardenlinux/bp-package-ncurses 6.5+20251123-1gl0+bp1877
@@ -134,7 +134,7 @@ gardenlinux/bp-package-pygobject 3.50.0-5gl0+bp1877
 gardenlinux/bp-package-pyjwt 2.15.1-1gl0+bp1877
 gardenlinux/bp-package-python-apt 3.1.0
 gardenlinux/bp-package-requests 2.32.5+dfsg-1gl0+bp1877
-gardenlinux/bp-package-rsyslog 8.2608.0-4gl0+bp1877
+gardenlinux/bp-package-rsyslog 8.2608.0-4gl1+bp1877
 gardenlinux/bp-package-samba 4.22.8+dfsg-0+deb13u1gl0+bp1877
 gardenlinux/bp-package-sqlite3 3.46.1-9gl0+bp1877
 gardenlinux/bp-package-sudo 1.9.17p2-7gl0+bp1877
