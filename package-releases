@@ -93,7 +93,7 @@ gardenlinux/package-perl 5.42.2-3gl0+bp1877
 gardenlinux/package-perl-tk 804.036+dfsg1-5gl0
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
-gardenlinux/package-python3.13 3.13.14-1gl0+bp1877
+gardenlinux/package-python3.13 3.13.18-1gl0+bp1877
 gardenlinux/package-refpolicy 2.20250213-5gl0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/package-rsync 3.3.0+ds1-4gl0
