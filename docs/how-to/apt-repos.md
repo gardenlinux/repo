@@ -202,7 +202,7 @@ git push origin 2150.1.0
 
 ### Step 7: Monitor the Build
 
-Once you push the tag, the `update.yml` GitHub Action will automatically:
+Once you push the tag, the `build.yml` GitHub Action will automatically:
 
 1. Collect the specified package versions
 2. Fetch dependencies from Debian snapshots
