@@ -7,7 +7,7 @@ gardenlinux/package-bootloader 0.1.1gl0
 gardenlinux/package-c-ares 1.34.8-1gl0+bp1877
 gardenlinux/package-ca-certificates 20260816+nmu1gl0+bp1877
 gardenlinux/package-cloud-init 25.1.4-1gl1+bp1877
-gardenlinux/package-containerd 2.3.7-0gl1+bp1877
+gardenlinux/package-containerd 2.3.7-0gl2+bp1877
 gardenlinux/package-coreutils 9.7-2gl0+bp1877
 gardenlinux/package-curl 8.23.0-2gl0+bp1877
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-9gl0
@@ -27,12 +27,12 @@ gardenlinux/package-gl-fips-checker 0.1gl0+bp1877
 gardenlinux/package-glvd 0.0.3gl0
 gardenlinux/package-gnupg2 2.4.9-8gl0+bp1877
 gardenlinux/package-gnutls 3.8.12-3gl11+bp1877
-gardenlinux/package-golang 1.26.8-1gl0+bp1877
+gardenlinux/package-golang 1.26.11-1gl0+bp1877
 gardenlinux/package-golang-github-checkpoint-restore-go-criu-dev 7.2.0+ds1-2gl0
 gardenlinux/package-golang-github-containers-libhvee 0.7.1+ds1-1gardenlinux0
 gardenlinux/package-google-compute-engine 20260623.00gl0+bp1877
 gardenlinux/package-google-compute-engine-oslogin 20260626.00gl0+bp1877
-gardenlinux/package-google-guest-agent 20260529.00gl4+bp1877
+gardenlinux/package-google-guest-agent 20261118.00gl0+bp1877
 gardenlinux/package-htop 3.4.1-4gl0
 gardenlinux/package-htop-dev 3.4.1-4gl0
 gardenlinux/package-ignition 2.26.0-0gl2+bp1877
