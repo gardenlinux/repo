@@ -109,7 +109,6 @@ netplan.io
 nfs-common
 nfs-kernel-server
 nftables
-nginx
 nmap
 node-corepack
 nodejs
