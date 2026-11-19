@@ -9,7 +9,7 @@ gardenlinux/package-ca-certificates 20260816+nmu1gl0+bp1877
 gardenlinux/package-cloud-init 25.1.4-1gl1+bp1877
 gardenlinux/package-containerd 2.3.7-0gl1+bp1877
 gardenlinux/package-coreutils 9.7-2gl0+bp1877
-gardenlinux/package-curl 8.23.0-1gl0+bp1877
+gardenlinux/package-curl 8.23.0-2gl0+bp1877
 gardenlinux/package-cyrus-sasl2 2.1.28+dfsg1-9gl0
 gardenlinux/package-datefudge 1.26gardenlinux0
 gardenlinux/package-deborphan 1.7.35gardenlinux0
