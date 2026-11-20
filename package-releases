@@ -56,7 +56,7 @@ gardenlinux/package-jinja2 3.1.6-3gl0
 gardenlinux/package-jitterentropy-rngd 1.3.2-1gl0+bp2150
 gardenlinux/package-kexec-tools 2.0.32-3gl0
 gardenlinux/package-keylime-agent 0.2.7.2gl0
-gardenlinux/package-krb5 1.22.1-3gl0+bp2150
+gardenlinux/package-krb5 1.22.3-1gl0+bp2150
 gardenlinux/package-libcap2 2.75-10+deb13u1gl0+bp2150
 gardenlinux/package-libgcrypt 1.11.2-3gl0
 gardenlinux/bp-package-glib2.0 2.90.1-2gl0+bp2150
