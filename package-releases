@@ -1,5 +1,5 @@
 gardenlinux/package-acl 2.4.0-1gl0+bp2150
-gardenlinux/package-apt 3.1.15gl0
+gardenlinux/package-apt 3.3.8gl0+bp2150
 gardenlinux/package-aws-kms-pkcs11 0.0.11gardenlinux0
 gardenlinux/package-aws-sdk-cpp 1.11.253gardenlinux0
 gardenlinux/package-bootloader 0.1.1gl0
