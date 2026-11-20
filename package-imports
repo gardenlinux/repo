@@ -8,7 +8,6 @@ arptables
 auditd
 awscli
 azure-vm-utils
-bind9
 bind9-dnsutils
 binutils
 bridge-utils
