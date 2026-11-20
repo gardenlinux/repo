@@ -89,7 +89,7 @@ gardenlinux/package-pcr-oracle 0.5.4-1gl0
 gardenlinux/package-perl 5.40.1-8+really5.42.3-1gl0+bp2150
 gardenlinux/package-python3.11 null
 gardenlinux/package-python3.12 null
-gardenlinux/package-python3.13 3.13.15-1gl0+bp2150
+gardenlinux/package-python3.13 3.13.18-1gl0+bp2150
 gardenlinux/package-refpolicy 2.20250213-11gl0
 gardenlinux/package-resizefat32 0.1gardenlinux0
 gardenlinux/package-rsync 3.3.0+ds1-4gl0
