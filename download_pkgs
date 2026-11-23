@@ -13,7 +13,7 @@ cd "$dir"
 
 mkdir download
 while read -r repo tag; do
-	gh release download --dir download --repo "$repo" "$tag" --pattern "build.*" --pattern "null" # ignore sboms
+	gh release download --dir download --repo "$repo" "$tag" --skip-existing
 	if [ -e download/build.tar.xz.0000 ]; then
 		set +f
 		cat download/build.tar.xz.* | xz -d | tar -C download -x
