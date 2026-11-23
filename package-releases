@@ -22,7 +22,7 @@ gardenlinux/package-ferm 2.7-0gardenlinux0
 gardenlinux/package-frr 10.3-0gl1
 gardenlinux/package-gardenlinux-repo-manager 1.0.3gardenlinux0
 gardenlinux/package-gardenlinux-selinux-module 1.0.10gardenlinux0
-gardenlinux/package-gardenlinux-update 0.9gl6+bp1877
+gardenlinux/package-gardenlinux-update 0.9gl7+bp1877
 gardenlinux/package-gl-fips-checker 0.1gl0+bp1877
 gardenlinux/package-glvd 0.0.3gl0
 gardenlinux/package-gnupg2 2.4.9-8gl0+bp1877
@@ -35,8 +35,8 @@ gardenlinux/package-google-compute-engine-oslogin 20260626.00gl0+bp1877
 gardenlinux/package-google-guest-agent 20261118.00gl0+bp1877
 gardenlinux/package-htop 3.4.1-4gl0
 gardenlinux/package-htop-dev 3.4.1-4gl0
-gardenlinux/package-ignition 2.26.0-0gl2+bp1877
-gardenlinux/package-ignition-legacy 2.26.0-0gl2+bp1877
+gardenlinux/package-ignition 2.26.0-0gl3+bp1877
+gardenlinux/package-ignition-legacy 2.26.0-0gl3+bp1877
 gardenlinux/package-iproute2 6.14.0-3gl0
 gardenlinux/package-jinja2 3.1.6-3gl0+bp1877
 gardenlinux/package-kexec-tools 2.0.29-2gl1+bp1877
@@ -76,7 +76,7 @@ gardenlinux/package-libxml-parser-perl 2.47-1gl0+bp1877
 gardenlinux/package-libxml2 2.12.7+dfsg+really2.9.14-2.1+deb13u2gl0+bp1877
 gardenlinux/package-libxs-parse-keyword-perl 0.48-2gl0+bp1877
 gardenlinux/package-libyang2 null
-gardenlinux/package-linux 6.12.114-1gl14+bp1877
+gardenlinux/package-linux 6.12.119-1gl15+bp1877
 gardenlinux/package-metalbond 0.2.0-0gardenlinux0
 gardenlinux/package-neofetch null
 gardenlinux/package-net-snmp 5.9.4+dfsg-2gl0
