@@ -138,6 +138,9 @@ jobs:
     needs: [ build ]
     if: failure() && fromJSON(github.run_attempt) < 3
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
     steps:
       - env:
           GH_REPO: ${{ github.repository }}
