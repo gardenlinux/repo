@@ -49,13 +49,13 @@ The `package-releases` file lists the specific versions of custom-built packages
 
 **Format**: Each line contains:
 
-```
+```text
 <package-name> <version-tag>
 ```
 
 **Example**:
 
-```
+```text
 gardenlinux/package-apt 3.1.15gl0
 gardenlinux/package-openssh 10.4p1-4gl0+bp2150
 gardenlinux/package-openssl 3.5.5-1gl51+bp2150
@@ -82,13 +82,13 @@ The `package-imports` file specifies which packages should be imported directly 
 
 **Format**: Each line contains a Debian package name:
 
-```
+```text
 <package-name>
 ```
 
 **Example**:
 
-```
+```text
 systemd
 curl
 glibc
